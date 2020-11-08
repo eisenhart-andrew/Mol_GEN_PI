@@ -1,0 +1,26 @@
+#PBS -A PAA0004
+#PBS -N @@@
+#PBS -l walltime=04:30:20,nodes=1:ppn=28:gpus=1
+#PBS -S /bin/bash
+#PBS -j oe
+
+set -vx
+
+locdir=/users/PES0434/ucn2400/projects/membrane_free_batteries/PTZ/ligpargen_base/VDW_scaling/@@@
+st='date+%s'
+
+cd $locdir
+
+module load gromacs 
+
+gmx grompp -f em.mdp -c out.gro -p topol.top -o ptz_water-em.tpr
+
+gmx mdrun -deffnm ptz_water-em
+
+gmx grompp -f equil.mdp -c ptz_water-em.gro -n index.ndx -p topol.top -o ptz_water-equil.tpr
+
+gmx mdrun -deffnm ptz_water-equil
+
+|| exit 1
+
+echo -----------------------------------------------------echo " Finished simulation" 
