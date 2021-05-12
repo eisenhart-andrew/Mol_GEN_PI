@@ -1,0 +1,21 @@
+#PBS -A PAA0004
+#PBS -N PI_CO2_tpot
+#PBS -l walltime=35:30:20,nodes=1:ppn=28:gpus=1
+#PBS -S /bin/bash
+#PBS -j oe
+
+set -vx
+
+locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/PersistentImages_Chemistry
+st='date+%s'
+
+cd $locdir
+
+module load python/3.6-conda5.2
+source activate tpot
+
+python tpot_PI.py
+
+|| exit 1
+
+echo -----------------------------------------------------echo " Finished simulation" 
