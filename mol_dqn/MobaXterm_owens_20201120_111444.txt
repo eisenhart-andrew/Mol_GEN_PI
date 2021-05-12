@@ -1,0 +1,1391 @@
+1 molecule converted
+predicted co2 binding affinity = 4.570398153888814
+predicted homo-lumo gap = -0.42589424127154274
+1 molecule converted
+predicted co2 binding affinity = 5.038340826060974
+predicted homo-lumo gap = -0.3483900077166595
+1 molecule converted
+predicted co2 binding affinity = 4.739448259945938
+predicted homo-lumo gap = -0.3314950589840535
+1 molecule converted
+predicted co2 binding affinity = 4.641430170817866
+predicted homo-lumo gap = -0.3618385840545386
+1 molecule converted
+predicted co2 binding affinity = 4.326729442055139
+predicted homo-lumo gap = -0.26195642434186084
+1 molecule converted
+predicted co2 binding affinity = 4.196614853597424
+predicted homo-lumo gap = -0.2317014577193497
+1 molecule converted
+predicted co2 binding affinity = 4.665438572050153
+predicted homo-lumo gap = -0.1852551646356666
+1 molecule converted
+predicted co2 binding affinity = 3.5801034696233565
+predicted homo-lumo gap = -0.1783355839215801
+1 molecule converted
+predicted co2 binding affinity = 3.8270850872460436
+predicted homo-lumo gap = -0.19076476180071467
+1 molecule converted
+predicted co2 binding affinity = 5.194087099650282
+predicted homo-lumo gap = -0.22693571803928947
+1 molecule converted
+predicted co2 binding affinity = 4.833448598953103
+predicted homo-lumo gap = -0.23383507568387074
+1 molecule converted
+predicted co2 binding affinity = 5.19214386401997
+predicted homo-lumo gap = -0.21111261463343922
+1 molecule converted
+predicted co2 binding affinity = 5.279717875642913
+predicted homo-lumo gap = -0.18013221931055057
+1 molecule converted
+predicted co2 binding affinity = 4.97239144574819
+predicted homo-lumo gap = -0.20073185968686857
+1 molecule converted
+predicted co2 binding affinity = 5.236580569555549
+predicted homo-lumo gap = -0.13755218495401067
+1 molecule converted
+predicted co2 binding affinity = 5.091964448353124
+predicted homo-lumo gap = -0.11350056083997373
+1 molecule converted
+predicted co2 binding affinity = 5.0514603707474794
+predicted homo-lumo gap = -0.09850383889164505
+1 molecule converted
+predicted co2 binding affinity = 4.575229274708278
+predicted homo-lumo gap = -0.12230848963271868
+1 molecule converted
+predicted co2 binding affinity = 5.01773561846805
+predicted homo-lumo gap = -0.11691449968129675
+1 molecule converted
+predicted co2 binding affinity = 4.9940664432769495
+predicted homo-lumo gap = -0.101853902624228
+I1120 10:49:24.720315 47115258510144 run_dqn.py:276] Episode 1/100 took 71.3078s
+I1120 10:49:24.720883 47115258510144 run_dqn.py:277] SMILES: CC=C(N=CNC(NOO)ON)NN
+I1120 10:49:24.737805 47115258510144 run_dqn.py:279] The reward is: 4.8922125406527215
+1 molecule converted
+predicted co2 binding affinity = 4.817789754337216
+predicted homo-lumo gap = -0.3306526807165966
+1 molecule converted
+predicted co2 binding affinity = 5.307924970600585
+predicted homo-lumo gap = -0.3071333083718848
+1 molecule converted
+predicted co2 binding affinity = 4.669791247025195
+predicted homo-lumo gap = -0.31939417691419436
+1 molecule converted
+predicted co2 binding affinity = 4.200814775172223
+predicted homo-lumo gap = -0.31766622073869044
+1 molecule converted
+predicted co2 binding affinity = 4.593531285102163
+predicted homo-lumo gap = -0.2540698434716191
+1 molecule converted
+predicted co2 binding affinity = 3.748794459391881
+predicted homo-lumo gap = -0.23419026357533568
+1 molecule converted
+predicted co2 binding affinity = 3.714742831948069
+predicted homo-lumo gap = -0.2972907848700892
+1 molecule converted
+predicted co2 binding affinity = 3.979922504580639
+predicted homo-lumo gap = -0.2470413925062651
+1 molecule converted
+predicted co2 binding affinity = 4.524475274088825
+predicted homo-lumo gap = -0.2309881131387428
+1 molecule converted
+predicted co2 binding affinity = 3.899110313498184
+predicted homo-lumo gap = -0.2840563127230489
+1 molecule converted
+predicted co2 binding affinity = 4.617122933084822
+predicted homo-lumo gap = -0.2287532507895449
+1 molecule converted
+predicted co2 binding affinity = 3.9903578798736046
+predicted homo-lumo gap = -0.23979007281038633
+1 molecule converted
+predicted co2 binding affinity = 4.41032376755593
+predicted homo-lumo gap = -0.19235450621126304
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 6757 thread 1 bound to OS proc set 1
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9178 thread 2 bound to OS proc set 2
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9180 thread 4 bound to OS proc set 4
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9179 thread 3 bound to OS proc set 3
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9182 thread 6 bound to OS proc set 6
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9181 thread 5 bound to OS proc set 5
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9183 thread 7 bound to OS proc set 7
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9184 thread 8 bound to OS proc set 8
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9185 thread 9 bound to OS proc set 9
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9188 thread 11 bound to OS proc set 11
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9186 thread 10 bound to OS proc set 10
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9189 thread 12 bound to OS proc set 12
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9192 thread 14 bound to OS proc set 14
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9190 thread 13 bound to OS proc set 13
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9193 thread 15 bound to OS proc set 15
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9194 thread 16 bound to OS proc set 16
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9195 thread 17 bound to OS proc set 17
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9196 thread 18 bound to OS proc set 18
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9197 thread 19 bound to OS proc set 19
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9199 thread 21 bound to OS proc set 21
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9198 thread 20 bound to OS proc set 20
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9200 thread 22 bound to OS proc set 22
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9202 thread 23 bound to OS proc set 23
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9203 thread 24 bound to OS proc set 24
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9223 thread 26 bound to OS proc set 26
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9222 thread 25 bound to OS proc set 25
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9225 thread 28 bound to OS proc set 0
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 9224 thread 27 bound to OS proc set 27
+1 molecule converted
+predicted co2 binding affinity = 4.085607838834672
+predicted homo-lumo gap = -0.18595776812454545
+1 molecule converted
+predicted co2 binding affinity = 4.037973057329699
+predicted homo-lumo gap = -0.18893877065214326
+1 molecule converted
+predicted co2 binding affinity = 4.325330920285795
+predicted homo-lumo gap = -0.20675085249825997
+1 molecule converted
+predicted co2 binding affinity = 4.29223899111884
+predicted homo-lumo gap = -0.1790921288570928
+1 molecule converted
+predicted co2 binding affinity = 4.436556303977621
+predicted homo-lumo gap = -0.17424254708373965
+1 molecule converted
+predicted co2 binding affinity = 4.526535229943043
+predicted homo-lumo gap = -0.17280191656841026
+1 molecule converted
+predicted co2 binding affinity = 4.747020890950424
+predicted homo-lumo gap = -0.11582125095159768
+I1120 10:50:19.602042 47115258510144 run_dqn.py:276] Episode 2/100 took 54.8618s
+I1120 10:50:19.602320 47115258510144 run_dqn.py:277] SMILES: C=CN=CN(N)NNOC(N)O
+
+I1120 10:50:19.602843 47115258510144 run_dqn.py:279] The reward is: 4.631199639998826
+1 molecule converted
+predicted co2 binding affinity = 5.687658031489299
+predicted homo-lumo gap = -0.3492248518449763
+1 molecule converted
+predicted co2 binding affinity = 4.27978989901861
+predicted homo-lumo gap = -0.35022905347004496
+1 molecule converted
+predicted co2 binding affinity = 5.6888597626465405
+predicted homo-lumo gap = -0.34930438722126667
+1 molecule converted
+predicted co2 binding affinity = 4.955836678675414
+predicted homo-lumo gap = -0.37229067302179786
+1 molecule converted
+predicted co2 binding affinity = 4.177930230799809
+predicted homo-lumo gap = -0.2789076579802696
+1 molecule converted
+predicted co2 binding affinity = 4.238920600398554
+predicted homo-lumo gap = -0.32628629416457144
+1 molecule converted
+predicted co2 binding affinity = 4.239040221081364
+predicted homo-lumo gap = -0.3262602461405777
+1 molecule converted
+predicted co2 binding affinity = 5.072081352029947
+predicted homo-lumo gap = -0.2859493664891062
+1 molecule converted
+predicted co2 binding affinity = 5.638691031037393
+predicted homo-lumo gap = -0.2676773351844055
+1 molecule converted
+predicted co2 binding affinity = 5.1655891351161465
+predicted homo-lumo gap = -0.25059122659718014
+1 molecule converted
+predicted co2 binding affinity = 4.852208179393013
+predicted homo-lumo gap = -0.20761179459735146
+1 molecule converted
+predicted co2 binding affinity = 4.152714407095516
+predicted homo-lumo gap = -0.22772647992103145
+1 molecule converted
+predicted co2 binding affinity = 3.9228667028122644
+predicted homo-lumo gap = -0.21682970577632332
+1 molecule converted
+predicted co2 binding affinity = 3.4285114001156938
+predicted homo-lumo gap = -0.21984688948526454
+1 molecule converted
+predicted co2 binding affinity = 3.227835774810792
+predicted homo-lumo gap = -0.1761609580517316
+1 molecule converted
+predicted co2 binding affinity = 3.0537831754337397
+predicted homo-lumo gap = -0.17803183861153116
+1 molecule converted
+predicted co2 binding affinity = 3.8849071270271622
+predicted homo-lumo gap = -0.21369956630807252
+1 molecule converted
+predicted co2 binding affinity = 3.8895604830386574
+predicted homo-lumo gap = -0.2040293353265632
+1 molecule converted
+predicted co2 binding affinity = 3.982554483489899
+predicted homo-lumo gap = -0.190477213447231
+1 molecule converted
+predicted co2 binding affinity = 4.321959832435688
+predicted homo-lumo gap = -0.19099291943917152
+I1120 10:51:11.380055 47115258510144 run_dqn.py:276] Episode 3/100 took 51.777s
+I1120 10:51:11.380789 47115258510144 run_dqn.py:277] SMILES: O=C1N=C=NC1OO
+
+I1120 10:51:11.380892 47115258510144 run_dqn.py:279] The reward is: 4.1309669129965165
+1 molecule converted
+predicted co2 binding affinity = 4.817140091001907
+predicted homo-lumo gap = -0.33061508866848044
+1 molecule converted
+predicted co2 binding affinity = 4.287274903455128
+predicted homo-lumo gap = -0.2807593276880702
+1 molecule converted
+predicted co2 binding affinity = 4.287385010819996
+predicted homo-lumo gap = -0.2808285089744764
+1 molecule converted
+predicted co2 binding affinity = 4.286829058566802
+predicted homo-lumo gap = -0.2806934852419829
+1 molecule converted
+predicted co2 binding affinity = 3.798524214987239
+predicted homo-lumo gap = -0.30698071855359643
+1 molecule converted
+predicted co2 binding affinity = 3.8854758210954756
+predicted homo-lumo gap = -0.21355653740848268
+1 molecule converted
+predicted co2 binding affinity = 4.650669863762953
+predicted homo-lumo gap = -0.2090199594039106
+1 molecule converted
+predicted co2 binding affinity = 5.325043606877813
+predicted homo-lumo gap = -0.21777978864254877
+1 molecule converted
+predicted co2 binding affinity = 5.576522607226405
+predicted homo-lumo gap = -0.2335772567804355
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 6758 thread 29 bound to OS proc set 1
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11241 thread 30 bound to OS proc set 2
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11242 thread 31 bound to OS proc set 3
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11243 thread 32 bound to OS proc set 4
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11244 thread 33 bound to OS proc set 5
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11245 thread 34 bound to OS proc set 6
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11246 thread 35 bound to OS proc set 7
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11248 thread 36 bound to OS proc set 8
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11249 thread 37 bound to OS proc set 9
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11250 thread 38 bound to OS proc set 10
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11251 thread 39 bound to OS proc set 11
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11252 thread 40 bound to OS proc set 12
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11253 thread 41 bound to OS proc set 13
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11254 thread 42 bound to OS proc set 14
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11255 thread 43 bound to OS proc set 15
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11256 thread 44 bound to OS proc set 16
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11257 thread 45 bound to OS proc set 17
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11258 thread 46 bound to OS proc set 18
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11260 thread 47 bound to OS proc set 19
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11261 thread 48 bound to OS proc set 20
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11262 thread 49 bound to OS proc set 21
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11263 thread 50 bound to OS proc set 22
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11266 thread 51 bound to OS proc set 23
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11268 thread 52 bound to OS proc set 24
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11269 thread 53 bound to OS proc set 25
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11271 thread 54 bound to OS proc set 26
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11273 thread 56 bound to OS proc set 0
+OMP: Info #252: KMP_AFFINITY: pid 4788 tid 11272 thread 55 bound to OS proc set 27
+1 molecule converted
+predicted co2 binding affinity = 5.311040787661
+predicted homo-lumo gap = -0.21171674416581965
+1 molecule converted
+predicted co2 binding affinity = 5.337437053574419
+predicted homo-lumo gap = -0.2041238771744922
+1 molecule converted
+predicted co2 binding affinity = 5.338145659519995
+predicted homo-lumo gap = -0.21426446087463802
+1 molecule converted
+predicted co2 binding affinity = 5.170721441487732
+predicted homo-lumo gap = -0.2002125348950159
+1 molecule converted
+predicted co2 binding affinity = 4.987264254296086
+predicted homo-lumo gap = -0.17838820438126746
+1 molecule converted
+predicted co2 binding affinity = 4.829635042297696
+predicted homo-lumo gap = -0.23776980316403495
+1 molecule converted
+predicted co2 binding affinity = 4.707073617657841
+predicted homo-lumo gap = -0.2440895760880437
+1 molecule converted
+predicted co2 binding affinity = 4.482509705710919
+predicted homo-lumo gap = -0.24502063696473186
+1 molecule converted
+predicted co2 binding affinity = 4.408460104364872
+predicted homo-lumo gap = -0.2396900757724847
+1 molecule converted
+predicted co2 binding affinity = 4.386268676975938
+predicted homo-lumo gap = -0.24603651466805232
+1 molecule converted
+predicted co2 binding affinity = 4.509401336179797
+predicted homo-lumo gap = -0.21558404098711037
+I1120 10:52:03.879154 47115258510144 run_dqn.py:276] Episode 4/100 took 52.4981s
+I1120 10:52:03.881615 47115258510144 run_dqn.py:277] SMILES: C=C(NCO)N(CC(C)(C)ON)OO
+
+I1120 10:52:03.881740 47115258510144 run_dqn.py:279] The reward is: 4.293817295192687
+1 molecule converted
+predicted co2 binding affinity = 4.572933323690997
+predicted homo-lumo gap = -0.4268926192207161
+1 molecule converted
+predicted co2 binding affinity = 4.069171475317347
+predicted homo-lumo gap = -0.38909743067464575
+1 molecule converted
+predicted co2 binding affinity = 4.4710938643976395
+predicted homo-lumo gap = -0.33650498445022947
+1 molecule converted
+predicted co2 binding affinity = 4.850040866676004
+predicted homo-lumo gap = -0.31919246989355443
+1 molecule converted
+predicted co2 binding affinity = 4.715447571044546
+predicted homo-lumo gap = -0.29385835208480415
+1 molecule converted
+predicted co2 binding affinity = 4.713992048209121
+predicted homo-lumo gap = -0.29360406866556943
+1 molecule converted
+predicted co2 binding affinity = 4.943894262580871
+predicted homo-lumo gap = -0.25068479069697247
+1 molecule converted
+predicted co2 binding affinity = 5.050962737867884
+predicted homo-lumo gap = -0.20274838188223399
+1 molecule converted
+predicted co2 binding affinity = 4.878942210735307
+predicted homo-lumo gap = -0.21997091958199277
+1 molecule converted
+predicted co2 binding affinity = 5.127334575793064
+predicted homo-lumo gap = -0.2162611270109558
+1 molecule converted
+predicted co2 binding affinity = 5.00975992695072
+predicted homo-lumo gap = -0.21031782596486082
+1 molecule converted
+predicted co2 binding affinity = 5.0489373238463955
+predicted homo-lumo gap = -0.15766010900565774
+1 molecule converted
+predicted co2 binding affinity = 4.786505936107112
+predicted homo-lumo gap = -0.12205716312831072
+1 molecule converted
+predicted co2 binding affinity = 4.4550508853663455
+predicted homo-lumo gap = -0.12722421308586007
+1 molecule converted
+predicted co2 binding affinity = 4.194107200893329
+predicted homo-lumo gap = -0.15198099370619644
+1 molecule converted
+predicted co2 binding affinity = 3.7281829895284346
+predicted homo-lumo gap = -0.1456448380767661
+1 molecule converted
+predicted co2 binding affinity = 3.7479495303052577
+predicted homo-lumo gap = -0.14191436236835742
+1 molecule converted
+predicted co2 binding affinity = 4.24330116824367
+predicted homo-lumo gap = -0.13560610631025583
+1 molecule converted
+predicted co2 binding affinity = 4.619629063618143
+predicted homo-lumo gap = -0.1407308674028016
+1 molecule converted
+predicted co2 binding affinity = 4.606069057621337
+predicted homo-lumo gap = -0.13620816811888403
+I1120 10:52:58.040038 47115258510144 run_dqn.py:276] Episode 5/100 took 54.1581s
+I1120 10:52:58.040811 47115258510144 run_dqn.py:277] SMILES: N=CC(O)(ON=O)N(C#CO)N=N
+
+I1120 10:52:58.040934 47115258510144 run_dqn.py:279] The reward is: 4.469860889502453
+1 molecule converted
+predicted co2 binding affinity = 5.688303682300102
+predicted homo-lumo gap = -0.3492719896864074
+1 molecule converted
+predicted co2 binding affinity = 4.177740968346987
+predicted homo-lumo gap = -0.2787756241650534
+1 molecule converted
+predicted co2 binding affinity = 5.689305071242337
+predicted homo-lumo gap = -0.3493262875838141
+1 molecule converted
+predicted co2 binding affinity = 5.668398028333481
+predicted homo-lumo gap = -0.3246100627502173
+1 molecule converted
+predicted co2 binding affinity = 5.688621918791451
+predicted homo-lumo gap = -0.3492912585965229
+1 molecule converted
+predicted co2 binding affinity = 5.668062341668822
+predicted homo-lumo gap = -0.32462371938379064
+1 molecule converted
+predicted co2 binding affinity = 5.432665389784482
+predicted homo-lumo gap = -0.2942693437821795
+1 molecule converted
+predicted co2 binding affinity = 5.200056490200133
+predicted homo-lumo gap = -0.29744324789077226
+1 molecule converted
+predicted co2 binding affinity = 5.4414034702966525
+predicted homo-lumo gap = -0.2953278398803576
+1 molecule converted
+predicted co2 binding affinity = 5.161200054913705
+predicted homo-lumo gap = -0.2794462926074601
+1 molecule converted
+predicted co2 binding affinity = 5.402058987161023
+predicted homo-lumo gap = -0.2736435738371661
+1 molecule converted
+predicted co2 binding affinity = 4.594058467123567
+predicted homo-lumo gap = -0.22608480704742107
+1 molecule converted
+predicted co2 binding affinity = 4.156208967649103
+predicted homo-lumo gap = -0.22791404914039148
+1 molecule converted
+predicted co2 binding affinity = 4.530991368549568
+predicted homo-lumo gap = -0.19860105629087954
+1 molecule converted
+predicted co2 binding affinity = 4.637120821324693
+predicted homo-lumo gap = -0.14397795201860575
+1 molecule converted
+predicted co2 binding affinity = 4.784461099639991
+predicted homo-lumo gap = -0.17317076778174822
+1 molecule converted
+predicted co2 binding affinity = 4.937862862145916
+predicted homo-lumo gap = -0.15965745589257807
+1 molecule converted
+predicted co2 binding affinity = 5.022494285606822
+predicted homo-lumo gap = -0.12941321609362078
+1 molecule converted
+predicted co2 binding affinity = 5.149006485427606
+predicted homo-lumo gap = -0.1344426267687595
+1 molecule converted
+predicted co2 binding affinity = 4.977147084177876
+predicted homo-lumo gap = -0.1255625345605793
+I1120 10:53:51.599577 47115258510144 run_dqn.py:276] Episode 6/100 took 53.5585s
+I1120 10:53:51.600140 47115258510144 run_dqn.py:277] SMILES: C=NC=NNNN(C)OOO
+
+I1120 10:53:51.600255 47115258510144 run_dqn.py:279] The reward is: 4.8515845496172965
+1 molecule converted
+predicted co2 binding affinity = 4.816717770823406
+predicted homo-lumo gap = -0.3305932564824303
+1 molecule converted
+predicted co2 binding affinity = 4.598089076226973
+predicted homo-lumo gap = -0.29966189573062607
+1 molecule converted
+predicted co2 binding affinity = 4.570455684957182
+predicted homo-lumo gap = -0.2314200626296774
+1 molecule converted
+predicted co2 binding affinity = 4.598362324206853
+predicted homo-lumo gap = -0.2996562604181854
+1 molecule converted
+predicted co2 binding affinity = 5.256730671957158
+predicted homo-lumo gap = -0.2702295629610596
+1 molecule converted
+predicted co2 binding affinity = 4.641147972938153
+predicted homo-lumo gap = -0.27634186274644534
+1 molecule converted
+predicted co2 binding affinity = 4.587882104156554
+predicted homo-lumo gap = -0.28659563731790527
+1 molecule converted
+predicted co2 binding affinity = 4.125738422526011
+predicted homo-lumo gap = -0.3060506867318651
+1 molecule converted
+predicted co2 binding affinity = 3.860887461443614
+predicted homo-lumo gap = -0.27557523756843594
+1 molecule converted
+predicted co2 binding affinity = 3.3121416203224534
+predicted homo-lumo gap = -0.223032708064828
+1 molecule converted
+predicted co2 binding affinity = 3.9019765428406323
+predicted homo-lumo gap = -0.22371466821648767
+1 molecule converted
+predicted co2 binding affinity = 3.9950831090435024
+predicted homo-lumo gap = -0.18052186425073913
+1 molecule converted
+predicted co2 binding affinity = 4.416688756763445
+predicted homo-lumo gap = -0.18549041961934876
+1 molecule converted
+predicted co2 binding affinity = 4.063707627603804
+predicted homo-lumo gap = -0.13955102736399994
+1 molecule converted
+predicted co2 binding affinity = 3.575234196850637
+predicted homo-lumo gap = -0.11723301924484986
+1 molecule converted
+predicted co2 binding affinity = 4.42458083052059
+predicted homo-lumo gap = -0.15016139683575958
+1 molecule converted
+predicted co2 binding affinity = 4.748516208675408
+predicted homo-lumo gap = -0.1709129073872866
+1 molecule converted
+predicted co2 binding affinity = 4.830066430933716
+predicted homo-lumo gap = -0.12492873398128879
+1 molecule converted
+predicted co2 binding affinity = 4.27246171165986
+predicted homo-lumo gap = -0.14016532150659344
+1 molecule converted
+predicted co2 binding affinity = 4.266060337917626
+predicted homo-lumo gap = -0.1311495043148021
+I1120 10:54:45.144862 47115258510144 run_dqn.py:276] Episode 7/100 took 53.5443s
+I1120 10:54:45.145249 47115258510144 run_dqn.py:277] SMILES: CN(O)OCC(=NN)ON1N=NCC1N
+
+I1120 10:54:45.147471 47115258510144 run_dqn.py:279] The reward is: 4.134910833602824
+1 molecule converted
+predicted co2 binding affinity = 4.818444670428875
+predicted homo-lumo gap = -0.3306970936857212
+1 molecule converted
+predicted co2 binding affinity = 4.163623921213638
+predicted homo-lumo gap = -0.3493728233126596
+1 molecule converted
+predicted co2 binding affinity = 4.16422792496471
+predicted homo-lumo gap = -0.34934731423973986
+1 molecule converted
+predicted co2 binding affinity = 4.490001682864634
+predicted homo-lumo gap = -0.35224910320090785
+1 molecule converted
+predicted co2 binding affinity = 4.067486883741552
+predicted homo-lumo gap = -0.3832337908498964
+1 molecule converted
+predicted co2 binding affinity = 4.612979195725078
+predicted homo-lumo gap = -0.3552308741607
+1 molecule converted
+predicted co2 binding affinity = 4.947566460870696
+predicted homo-lumo gap = -0.27911977519673314
+1 molecule converted
+predicted co2 binding affinity = 5.319707970117143
+predicted homo-lumo gap = -0.3253032342269542
+1 molecule converted
+predicted co2 binding affinity = 5.384064801110348
+predicted homo-lumo gap = -0.29165724068516496
+1 molecule converted
+predicted co2 binding affinity = 4.752408014446413
+predicted homo-lumo gap = -0.3230519050749976
+1 molecule converted
+predicted co2 binding affinity = 4.930107599889936
+predicted homo-lumo gap = -0.265444947125971
+1 molecule converted
+predicted co2 binding affinity = 4.801590591623658
+predicted homo-lumo gap = -0.24901082098810434
+1 molecule converted
+predicted co2 binding affinity = 4.642751194115462
+predicted homo-lumo gap = -0.306808755388964
+1 molecule converted
+predicted co2 binding affinity = 5.247305891910848
+predicted homo-lumo gap = -0.27795271463277516
+1 molecule converted
+predicted co2 binding affinity = 5.604363299091794
+predicted homo-lumo gap = -0.24957176391957248
+1 molecule converted
+predicted co2 binding affinity = 5.607461896714771
+predicted homo-lumo gap = -0.24972896461450844
+1 molecule converted
+predicted co2 binding affinity = 5.525488958885969
+predicted homo-lumo gap = -0.23478518387186398
+1 molecule converted
+predicted co2 binding affinity = 4.925296620194484
+predicted homo-lumo gap = -0.21548158656605665
+1 molecule converted
+predicted co2 binding affinity = 4.7796692426977305
+predicted homo-lumo gap = -0.19691945483273443
+1 molecule converted
+predicted co2 binding affinity = 5.207075609288491
+predicted homo-lumo gap = -0.21008727657014958
+I1120 10:55:38.078749 47115258510144 run_dqn.py:276] Episode 8/100 took 52.931s
+I1120 10:55:38.079407 47115258510144 run_dqn.py:277] SMILES: NNC#COOOO
+
+I1120 10:55:38.079508 47115258510144 run_dqn.py:279] The reward is: 4.996988332718342
+1 molecule converted
+predicted co2 binding affinity = 4.817272997135216
+predicted homo-lumo gap = -0.33062282468100435
+1 molecule converted
+predicted co2 binding affinity = 4.163189269062965
+predicted homo-lumo gap = -0.3494544185858217
+1 molecule converted
+predicted co2 binding affinity = 4.490688401357664
+predicted homo-lumo gap = -0.35223361704808553
+1 molecule converted
+predicted co2 binding affinity = 4.201313513882807
+predicted homo-lumo gap = -0.3052393699918099
+1 molecule converted
+predicted co2 binding affinity = 4.491140194184993
+predicted homo-lumo gap = -0.3521841242497139
+1 molecule converted
+predicted co2 binding affinity = 4.529930970375714
+predicted homo-lumo gap = -0.3427734535065632
+1 molecule converted
+predicted co2 binding affinity = 4.782382793319854
+predicted homo-lumo gap = -0.3151156667361015
+1 molecule converted
+predicted co2 binding affinity = 4.964902463534305
+predicted homo-lumo gap = -0.29851045164615186
+1 molecule converted
+predicted co2 binding affinity = 4.642348472930527
+predicted homo-lumo gap = -0.258023357768856
+1 molecule converted
+predicted co2 binding affinity = 5.250611313391378
+predicted homo-lumo gap = -0.23154681775637442
+1 molecule converted
+predicted co2 binding affinity = 4.521604826217754
+predicted homo-lumo gap = -0.2169604191984824
+1 molecule converted
+predicted co2 binding affinity = 4.3440763368205
+predicted homo-lumo gap = -0.2026296468347475
+1 molecule converted
+predicted co2 binding affinity = 4.725856231959208
+predicted homo-lumo gap = -0.19600364987029195
+1 molecule converted
+predicted co2 binding affinity = 5.018355943298985
+predicted homo-lumo gap = -0.19436197028488778
+1 molecule converted
+predicted co2 binding affinity = 4.401625605873578
+predicted homo-lumo gap = -0.20179107580504052
+1 molecule converted
+predicted co2 binding affinity = 3.998931331537822
+predicted homo-lumo gap = -0.1770592205755861
+1 molecule converted
+predicted co2 binding affinity = 4.769957186023788
+predicted homo-lumo gap = -0.17388978728859783
+1 molecule converted
+predicted co2 binding affinity = 4.6214960020129805
+predicted homo-lumo gap = -0.1756240134244571
+1 molecule converted
+predicted co2 binding affinity = 4.065225891718407
+predicted homo-lumo gap = -0.14671497769887765
+1 molecule converted
+predicted co2 binding affinity = 4.343494164299548
+predicted homo-lumo gap = -0.1737787249281837
+I1120 10:56:30.805682 47115258510144 run_dqn.py:276] Episode 9/100 took 52.726s
+I1120 10:56:30.805965 47115258510144 run_dqn.py:277] SMILES: C#CC(N)(N=COO)OONON=NC
+
+I1120 10:56:30.818289 47115258510144 run_dqn.py:279] The reward is: 4.169715439371364
+1 molecule converted
+predicted co2 binding affinity = 4.8161676533072715
+predicted homo-lumo gap = -0.33057528928311086
+1 molecule converted
+predicted co2 binding affinity = 4.34581961155606
+predicted homo-lumo gap = -0.3200147044530972
+1 molecule converted
+predicted co2 binding affinity = 4.8190817470030645
+predicted homo-lumo gap = -0.3307402683850533
+1 molecule converted
+predicted co2 binding affinity = 5.0337664942699405
+predicted homo-lumo gap = -0.3482574497795383
+1 molecule converted
+predicted co2 binding affinity = 4.347900350506187
+predicted homo-lumo gap = -0.32026371126904607
+1 molecule converted
+predicted co2 binding affinity = 4.164678233383722
+predicted homo-lumo gap = -0.34925972910100356
+1 molecule converted
+predicted co2 binding affinity = 4.164259310214117
+predicted homo-lumo gap = -0.3493647669592832
+1 molecule converted
+predicted co2 binding affinity = 5.0351626716262
+predicted homo-lumo gap = -0.34826541583391446
+1 molecule converted
+predicted co2 binding affinity = 4.629080534061089
+predicted homo-lumo gap = -0.30428967615154434
+1 molecule converted
+predicted co2 binding affinity = 5.123414712279111
+predicted homo-lumo gap = -0.22785431755607632
+1 molecule converted
+predicted co2 binding affinity = 4.44288212841829
+predicted homo-lumo gap = -0.20675305219918982
+1 molecule converted
+predicted co2 binding affinity = 4.663565231310638
+predicted homo-lumo gap = -0.14985128739097675
+1 molecule converted
+predicted co2 binding affinity = 4.347272000789069
+predicted homo-lumo gap = -0.16452942580437835
+1 molecule converted
+predicted co2 binding affinity = 5.016042893273777
+predicted homo-lumo gap = -0.22554290522152698
+1 molecule converted
+predicted co2 binding affinity = 4.432243274255214
+predicted homo-lumo gap = -0.23832137469572245
+1 molecule converted
+predicted co2 binding affinity = 4.351396239782801
+predicted homo-lumo gap = -0.19585566079900474
+1 molecule converted
+predicted co2 binding affinity = 4.394204995748115
+predicted homo-lumo gap = -0.23874605431725726
+1 molecule converted
+predicted co2 binding affinity = 4.722648310318032
+predicted homo-lumo gap = -0.24078811151450097
+1 molecule converted
+predicted co2 binding affinity = 4.690799419391846
+predicted homo-lumo gap = -0.21989323846666053
+1 molecule converted
+predicted co2 binding affinity = 4.342567854109781
+predicted homo-lumo gap = -0.15863515089059632
+I1120 10:57:23.660602 47115258510144 run_dqn.py:276] Episode 10/100 took 52.8421s
+I1120 10:57:23.663337 47115258510144 run_dqn.py:277] SMILES: N=NN=NC(OC=O)N(O)O
+
+I1120 10:57:23.663447 47115258510144 run_dqn.py:279] The reward is: 4.183932703219185
+1 molecule converted
+predicted co2 binding affinity = 5.68783017010502
+predicted homo-lumo gap = -0.3492379119288671
+1 molecule converted
+predicted co2 binding affinity = 5.668149696290978
+predicted homo-lumo gap = -0.3246205062523053
+1 molecule converted
+predicted co2 binding affinity = 5.688173926016631
+predicted homo-lumo gap = -0.3492648194139676
+1 molecule converted
+predicted co2 binding affinity = 5.307573760211287
+predicted homo-lumo gap = -0.30706037975149414
+1 molecule converted
+predicted co2 binding affinity = 4.289447315191307
+predicted homo-lumo gap = -0.2809610085231746
+1 molecule converted
+predicted co2 binding affinity = 4.286928222252026
+predicted homo-lumo gap = -0.28084965521536986
+1 molecule converted
+predicted co2 binding affinity = 5.006457487475956
+predicted homo-lumo gap = -0.2651484279571754
+1 molecule converted
+predicted co2 binding affinity = 4.154367742021979
+predicted homo-lumo gap = -0.26033602694256075
+1 molecule converted
+predicted co2 binding affinity = 5.004693684401669
+predicted homo-lumo gap = -0.26510157677948953
+1 molecule converted
+predicted co2 binding affinity = 4.802297663052567
+predicted homo-lumo gap = -0.2724791957699786
+1 molecule converted
+predicted co2 binding affinity = 4.346412691983808
+predicted homo-lumo gap = -0.2914147994564864
+1 molecule converted
+predicted co2 binding affinity = 4.588270252616237
+predicted homo-lumo gap = -0.30918900519629844
+1 molecule converted
+predicted co2 binding affinity = 4.976616264055835
+predicted homo-lumo gap = -0.28438927021318605
+1 molecule converted
+predicted co2 binding affinity = 4.7957281748197005
+predicted homo-lumo gap = -0.25578556720549983
+1 molecule converted
+predicted co2 binding affinity = 5.209307304861008
+predicted homo-lumo gap = -0.26122509060258636
+1 molecule converted
+predicted co2 binding affinity = 4.794391928728352
+predicted homo-lumo gap = -0.27601924116174104
+1 molecule converted
+predicted co2 binding affinity = 4.628938507846128
+predicted homo-lumo gap = -0.2725411043536603
+1 molecule converted
+predicted co2 binding affinity = 5.145492152613057
+predicted homo-lumo gap = -0.27592886971131136
+1 molecule converted
+predicted co2 binding affinity = 4.714718156764619
+predicted homo-lumo gap = -0.23679414311900615
+1 molecule converted
+predicted co2 binding affinity = 4.329551486046592
+predicted homo-lumo gap = -0.2251759049725166
+I1120 10:58:17.086447 47115258510144 run_dqn.py:276] Episode 11/100 took 53.4228s
+I1120 10:58:17.086812 47115258510144 run_dqn.py:277] SMILES: CC(O)NC(C)(N)NC=N
+
+I1120 10:58:17.087316 47115258510144 run_dqn.py:279] The reward is: 4.104375581074075
+1 molecule converted
+predicted co2 binding affinity = 4.817218981261881
+predicted homo-lumo gap = -0.3306201802595723
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 10:58:36.027750 47115258510144 run_dqn.py:301] Current TD error: 2.9564
+1 molecule converted
+predicted co2 binding affinity = 4.817874592115835
+predicted homo-lumo gap = -0.33065659890594645
+1 molecule converted
+predicted co2 binding affinity = 4.3490759999372575
+predicted homo-lumo gap = -0.320437297795543
+1 molecule converted
+predicted co2 binding affinity = 4.23382273949848
+predicted homo-lumo gap = -0.3139838243243034
+1 molecule converted
+predicted co2 binding affinity = 4.2167821310648534
+predicted homo-lumo gap = -0.27027250155622085
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 10:58:53.505702 47115258510144 run_dqn.py:301] Current TD error: 2.0799
+1 molecule converted
+predicted co2 binding affinity = 5.213025685445253
+predicted homo-lumo gap = -0.25846231156214117
+1 molecule converted
+predicted co2 binding affinity = 5.790214654089333
+predicted homo-lumo gap = -0.24858757203697124
+1 molecule converted
+predicted co2 binding affinity = 4.869843308813078
+predicted homo-lumo gap = -0.2654334953955093
+1 molecule converted
+predicted co2 binding affinity = 4.833031946883743
+predicted homo-lumo gap = -0.22168482878557327
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 10:59:11.760629 47115258510144 run_dqn.py:301] Current TD error: 1.5687
+1 molecule converted
+predicted co2 binding affinity = 4.108339788910701
+predicted homo-lumo gap = -0.22187424475824002
+1 molecule converted
+predicted co2 binding affinity = 3.573237953611855
+predicted homo-lumo gap = -0.2478962883679472
+1 molecule converted
+predicted co2 binding affinity = 4.233461831461916
+predicted homo-lumo gap = -0.25756879635344276
+1 molecule converted
+predicted co2 binding affinity = 4.353586075537454
+predicted homo-lumo gap = -0.23582826563877646
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 10:59:29.787321 47115258510144 run_dqn.py:301] Current TD error: 1.7764
+1 molecule converted
+predicted co2 binding affinity = 4.602997980825938
+predicted homo-lumo gap = -0.30815883482450346
+1 molecule converted
+predicted co2 binding affinity = 4.338107182593845
+predicted homo-lumo gap = -0.293234221303905
+1 molecule converted
+predicted co2 binding affinity = 4.938859448982102
+predicted homo-lumo gap = -0.28549737612890524
+1 molecule converted
+predicted co2 binding affinity = 4.734860489959868
+predicted homo-lumo gap = -0.2703141587969675
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 10:59:47.126996 47115258510144 run_dqn.py:301] Current TD error: 1.9247
+1 molecule converted
+predicted co2 binding affinity = 4.434392499898909
+predicted homo-lumo gap = -0.2735308468900257
+1 molecule converted
+predicted co2 binding affinity = 4.284096055171309
+predicted homo-lumo gap = -0.21542151382417885
+1 molecule converted
+predicted co2 binding affinity = 4.26415674169321
+predicted homo-lumo gap = -0.2193539146860175
+I1120 10:59:55.080752 47115258510144 run_dqn.py:276] Episode 12/100 took 97.9933s
+I1120 10:59:55.081266 47115258510144 run_dqn.py:277] SMILES: CC(CN(O)C=N)OOO
+
+I1120 10:59:55.081376 47115258510144 run_dqn.py:279] The reward is: 4.044802827007192
+1 molecule converted
+predicted co2 binding affinity = 4.573366629805566
+predicted homo-lumo gap = -0.42688387260264804
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:00:04.367429 47115258510144 run_dqn.py:301] Current TD error: 1.2006
+1 molecule converted
+predicted co2 binding affinity = 4.332389984137212
+predicted homo-lumo gap = -0.32216738450409466
+1 molecule converted
+predicted co2 binding affinity = 4.571293774182539
+predicted homo-lumo gap = -0.4266540715439575
+1 molecule converted
+predicted co2 binding affinity = 5.0374157816241905
+predicted homo-lumo gap = -0.349033561285097
+1 molecule converted
+predicted co2 binding affinity = 4.476492807291553
+predicted homo-lumo gap = -0.3129070803540337
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:00:22.630403 47115258510144 run_dqn.py:301] Current TD error: 0.9995
+1 molecule converted
+predicted co2 binding affinity = 4.358702311742276
+predicted homo-lumo gap = -0.2550459357157031
+1 molecule converted
+predicted co2 binding affinity = 5.057363424190189
+predicted homo-lumo gap = -0.2510715454375365
+1 molecule converted
+predicted co2 binding affinity = 4.980489557219453
+predicted homo-lumo gap = -0.2309643068549434
+1 molecule converted
+predicted co2 binding affinity = 4.548414308798682
+predicted homo-lumo gap = -0.2577625848091216
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:00:36.228000 47115258510144 run_dqn.py:301] Current TD error: 0.6753
+1 molecule converted
+predicted co2 binding affinity = 3.9259048905805862
+predicted homo-lumo gap = -0.22603038781867824
+1 molecule converted
+predicted co2 binding affinity = 4.149155800761834
+predicted homo-lumo gap = -0.16610535330915965
+1 molecule converted
+predicted co2 binding affinity = 4.324031790635619
+predicted homo-lumo gap = -0.1327449109915122
+1 molecule converted
+predicted co2 binding affinity = 4.0826488047363245
+predicted homo-lumo gap = -0.15670062882525215
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:00:54.702913 47115258510144 run_dqn.py:301] Current TD error: 1.0823
+1 molecule converted
+predicted co2 binding affinity = 4.063782359285783
+predicted homo-lumo gap = -0.11590487372526326
+1 molecule converted
+predicted co2 binding affinity = 4.012033097366247
+predicted homo-lumo gap = -0.1448561387820675
+1 molecule converted
+predicted co2 binding affinity = 3.9113875505958777
+predicted homo-lumo gap = -0.15770421668444357
+1 molecule converted
+predicted co2 binding affinity = 4.164537683832913
+predicted homo-lumo gap = -0.1614488756866379
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:01:13.808375 47115258510144 run_dqn.py:301] Current TD error: 2.2920
+1 molecule converted
+predicted co2 binding affinity = 4.601809742684022
+predicted homo-lumo gap = -0.13993994825982625
+1 molecule converted
+predicted co2 binding affinity = 4.126576855953926
+predicted homo-lumo gap = -0.14418357875161547
+1 molecule converted
+predicted co2 binding affinity = 4.199620317542816
+predicted homo-lumo gap = -0.11366428497257886
+I1120 11:01:21.782446 47115258510144 run_dqn.py:276] Episode 13/100 took 86.7009s
+I1120 11:01:21.783059 47115258510144 run_dqn.py:277] SMILES: C#CC1=NC(C#N)(NC)OC(ONNO)=N1
+
+I1120 11:01:21.783231 47115258510144 run_dqn.py:279] The reward is: 4.0859560325702375
+1 molecule converted
+predicted co2 binding affinity = 4.817127884997319
+predicted homo-lumo gap = -0.33061494385863455
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:01:31.124144 47115258510144 run_dqn.py:301] Current TD error: 1.8764
+1 molecule converted
+predicted co2 binding affinity = 4.818194930204012
+predicted homo-lumo gap = -0.3306781916813506
+1 molecule converted
+predicted co2 binding affinity = 4.348438572672478
+predicted homo-lumo gap = -0.3202168283162514
+1 molecule converted
+predicted co2 binding affinity = 5.312179400813243
+predicted homo-lumo gap = -0.2917635206915037
+1 molecule converted
+predicted co2 binding affinity = 5.566134797187079
+predicted homo-lumo gap = -0.2955972910400604
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:01:48.551466 47115258510144 run_dqn.py:301] Current TD error: 1.6743
+1 molecule converted
+predicted co2 binding affinity = 5.37243260113652
+predicted homo-lumo gap = -0.28579055595886516
+1 molecule converted
+predicted co2 binding affinity = 4.94832741097882
+predicted homo-lumo gap = -0.2812860356965672
+1 molecule converted
+predicted co2 binding affinity = 5.172011779431081
+predicted homo-lumo gap = -0.22304761488946667
+1 molecule converted
+predicted co2 binding affinity = 4.27796008682675
+predicted homo-lumo gap = -0.24469449301376756
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:02:08.433773 47115258510144 run_dqn.py:301] Current TD error: 0.3965
+1 molecule converted
+predicted co2 binding affinity = 4.236906859374386
+predicted homo-lumo gap = -0.2087389016155825
+1 molecule converted
+predicted co2 binding affinity = 4.539097631966097
+predicted homo-lumo gap = -0.18164433687547543
+1 molecule converted
+predicted co2 binding affinity = 4.798543033935889
+predicted homo-lumo gap = -0.19293283133309913
+1 molecule converted
+predicted co2 binding affinity = 4.634183858739005
+predicted homo-lumo gap = -0.17272681926352007
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:02:25.979521 47115258510144 run_dqn.py:301] Current TD error: 0.8478
+1 molecule converted
+predicted co2 binding affinity = 4.521068080572434
+predicted homo-lumo gap = -0.15267926786622255
+1 molecule converted
+predicted co2 binding affinity = 4.641804415624009
+predicted homo-lumo gap = -0.13979661166754198
+1 molecule converted
+predicted co2 binding affinity = 4.434406676027606
+predicted homo-lumo gap = -0.1354981857048152
+1 molecule converted
+predicted co2 binding affinity = 5.147920204570529
+predicted homo-lumo gap = -0.14591929056659936
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:02:43.809703 47115258510144 run_dqn.py:301] Current TD error: 0.6332
+1 molecule converted
+predicted co2 binding affinity = 4.8871982695032585
+predicted homo-lumo gap = -0.12366271251419292
+1 molecule converted
+predicted co2 binding affinity = 4.724539651007678
+predicted homo-lumo gap = -0.1567101620839928
+1 molecule converted
+predicted co2 binding affinity = 4.569264724708015
+predicted homo-lumo gap = -0.14984045348137442
+I1120 11:02:52.229626 47115258510144 run_dqn.py:276] Episode 14/100 took 90.4462s
+I1120 11:02:52.230338 47115258510144 run_dqn.py:277] SMILES: C=NN=NC(=N)C1NN(OOO)CO1
+
+I1120 11:02:52.230450 47115258510144 run_dqn.py:279] The reward is: 4.4194242712266405
+1 molecule converted
+predicted co2 binding affinity = 4.575004950404338
+predicted homo-lumo gap = -0.4273494990838955
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:03:00.888799 47115258510144 run_dqn.py:301] Current TD error: 0.3675
+1 molecule converted
+predicted co2 binding affinity = 4.352279809698224
+predicted homo-lumo gap = -0.32080541122514816
+1 molecule converted
+predicted co2 binding affinity = 4.402117149777228
+predicted homo-lumo gap = -0.3215363949392085
+1 molecule converted
+predicted co2 binding affinity = 4.873928517078955
+predicted homo-lumo gap = -0.25125373172150134
+1 molecule converted
+predicted co2 binding affinity = 4.515032035028074
+predicted homo-lumo gap = -0.20949979573020983
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:03:18.843150 47115258510144 run_dqn.py:301] Current TD error: 1.3021
+1 molecule converted
+predicted co2 binding affinity = 4.8728431903689255
+predicted homo-lumo gap = -0.25190265193665695
+1 molecule converted
+predicted co2 binding affinity = 4.33239116660177
+predicted homo-lumo gap = -0.3221674377900925
+1 molecule converted
+predicted co2 binding affinity = 4.765849704236082
+predicted homo-lumo gap = -0.3778779537906587
+1 molecule converted
+predicted co2 binding affinity = 4.766973706623769
+predicted homo-lumo gap = -0.3777534848156954
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:03:36.984457 47115258510144 run_dqn.py:301] Current TD error: 0.7787
+1 molecule converted
+predicted co2 binding affinity = 4.767340299897711
+predicted homo-lumo gap = -0.3776956683250994
+1 molecule converted
+predicted co2 binding affinity = 4.357923767339145
+predicted homo-lumo gap = -0.2930526285858335
+1 molecule converted
+predicted co2 binding affinity = 4.248959017656324
+predicted homo-lumo gap = -0.3003625428897472
+1 molecule converted
+predicted co2 binding affinity = 4.6663989519552125
+predicted homo-lumo gap = -0.36247507871693685
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:03:54.635107 47115258510144 run_dqn.py:301] Current TD error: 1.1755
+1 molecule converted
+predicted co2 binding affinity = 4.766786770291965
+predicted homo-lumo gap = -0.3777691540295045
+1 molecule converted
+predicted co2 binding affinity = 4.666629821945273
+predicted homo-lumo gap = -0.3624525411405912
+1 molecule converted
+predicted co2 binding affinity = 5.074505395131219
+predicted homo-lumo gap = -0.32231836947391557
+1 molecule converted
+predicted co2 binding affinity = 4.572461362834261
+predicted homo-lumo gap = -0.2779271943354438
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:04:13.273534 47115258510144 run_dqn.py:301] Current TD error: 0.7800
+1 molecule converted
+predicted co2 binding affinity = 5.356200832402196
+predicted homo-lumo gap = -0.2791868770796242
+1 molecule converted
+predicted co2 binding affinity = 4.792397330451056
+predicted homo-lumo gap = -0.24926621139232097
+1 molecule converted
+predicted co2 binding affinity = 4.923819604821986
+predicted homo-lumo gap = -0.23308137738930768
+I1120 11:04:21.173827 47115258510144 run_dqn.py:276] Episode 15/100 took 88.9432s
+I1120 11:04:21.174421 47115258510144 run_dqn.py:277] SMILES: ON1C=C=CCO1
+
+I1120 11:04:21.174551 47115258510144 run_dqn.py:279] The reward is: 4.6907382274326785
+1 molecule converted
+predicted co2 binding affinity = 4.57234732254706
+predicted homo-lumo gap = -0.4269117285030326
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:04:30.132853 47115258510144 run_dqn.py:301] Current TD error: 1.4557
+1 molecule converted
+predicted co2 binding affinity = 4.957351522331315
+predicted homo-lumo gap = -0.37132334856718785
+1 molecule converted
+predicted co2 binding affinity = 4.612939910174745
+predicted homo-lumo gap = -0.35502305275126034
+1 molecule converted
+predicted co2 binding affinity = 4.613141539802768
+predicted homo-lumo gap = -0.35506839920343936
+1 molecule converted
+predicted co2 binding affinity = 4.956678559856371
+predicted homo-lumo gap = -0.2998511423945729
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:04:47.952622 47115258510144 run_dqn.py:301] Current TD error: 1.4543
+1 molecule converted
+predicted co2 binding affinity = 4.206121688247064
+predicted homo-lumo gap = -0.30993007664900674
+1 molecule converted
+predicted co2 binding affinity = 4.0741588380981
+predicted homo-lumo gap = -0.24103741560639236
+1 molecule converted
+predicted co2 binding affinity = 4.500489511419815
+predicted homo-lumo gap = -0.21954293089346066
+1 molecule converted
+predicted co2 binding affinity = 3.3986210867657967
+predicted homo-lumo gap = -0.17735358386867262
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:05:05.602092 47115258510144 run_dqn.py:301] Current TD error: 0.8964
+1 molecule converted
+predicted co2 binding affinity = 3.523693868103763
+predicted homo-lumo gap = -0.17142261553435034
+1 molecule converted
+predicted co2 binding affinity = 3.5782069388972886
+predicted homo-lumo gap = -0.16741523391145918
+1 molecule converted
+predicted co2 binding affinity = 4.098431897100539
+predicted homo-lumo gap = -0.1994615229873844
+1 molecule converted
+predicted co2 binding affinity = 4.633137011995629
+predicted homo-lumo gap = -0.19366425869295867
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:05:24.323936 47115258510144 run_dqn.py:301] Current TD error: 0.4367
+1 molecule converted
+predicted co2 binding affinity = 4.108811070982604
+predicted homo-lumo gap = -0.21234463642045043
+1 molecule converted
+predicted co2 binding affinity = 3.965676529208057
+predicted homo-lumo gap = -0.16410390690639787
+1 molecule converted
+predicted co2 binding affinity = 4.302455888246342
+predicted homo-lumo gap = -0.1380864094591061
+1 molecule converted
+predicted co2 binding affinity = 4.304999027362813
+predicted homo-lumo gap = -0.15462770054389807
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:05:41.740735 47115258510144 run_dqn.py:301] Current TD error: 0.3814
+1 molecule converted
+predicted co2 binding affinity = 3.8665421194526868
+predicted homo-lumo gap = -0.15467381368302213
+1 molecule converted
+predicted co2 binding affinity = 3.8411250605525282
+predicted homo-lumo gap = -0.16047997947123704
+1 molecule converted
+predicted co2 binding affinity = 4.184316223906933
+predicted homo-lumo gap = -0.1263426413200186
+I1120 11:05:50.115641 47115258510144 run_dqn.py:276] Episode 16/100 took 88.9409s
+I1120 11:05:50.116178 47115258510144 run_dqn.py:277] SMILES: N=CCN=C=C(C=N)OC(N=O)ON
+
+I1120 11:05:50.116303 47115258510144 run_dqn.py:279] The reward is: 4.057973582586914
+1 molecule converted
+predicted co2 binding affinity = 5.688961360984244
+predicted homo-lumo gap = -0.34930978473743224
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:05:59.221171 47115258510144 run_dqn.py:301] Current TD error: 0.8314
+1 molecule converted
+predicted co2 binding affinity = 5.66906350065042
+predicted homo-lumo gap = -0.3245757021891933
+1 molecule converted
+predicted co2 binding affinity = 5.450668443099897
+predicted homo-lumo gap = -0.32057936086662764
+1 molecule converted
+predicted co2 binding affinity = 5.455262682283561
+predicted homo-lumo gap = -0.27351293059548354
+1 molecule converted
+predicted co2 binding affinity = 5.14941321893976
+predicted homo-lumo gap = -0.27611933077859874
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:06:16.990991 47115258510144 run_dqn.py:301] Current TD error: 1.0418
+1 molecule converted
+predicted co2 binding affinity = 5.497856548124076
+predicted homo-lumo gap = -0.2683084188612881
+1 molecule converted
+predicted co2 binding affinity = 5.032939658902718
+predicted homo-lumo gap = -0.2747185851421854
+1 molecule converted
+predicted co2 binding affinity = 5.056558093818559
+predicted homo-lumo gap = -0.23953354864004694
+1 molecule converted
+predicted co2 binding affinity = 4.9913232174084605
+predicted homo-lumo gap = -0.2228539544626642
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:06:34.621822 47115258510144 run_dqn.py:301] Current TD error: 0.5491
+1 molecule converted
+predicted co2 binding affinity = 5.440012380914522
+predicted homo-lumo gap = -0.21295756990164705
+1 molecule converted
+predicted co2 binding affinity = 5.54650254722333
+predicted homo-lumo gap = -0.2172993194301398
+1 molecule converted
+predicted co2 binding affinity = 5.331688054414265
+predicted homo-lumo gap = -0.2081620644368236
+1 molecule converted
+predicted co2 binding affinity = 5.351341765322511
+predicted homo-lumo gap = -0.18985459454443188
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:06:52.351253 47115258510144 run_dqn.py:301] Current TD error: 0.5542
+1 molecule converted
+predicted co2 binding affinity = 4.74931356641901
+predicted homo-lumo gap = -0.16482866853520406
+1 molecule converted
+predicted co2 binding affinity = 5.120003341033833
+predicted homo-lumo gap = -0.19617900318794312
+1 molecule converted
+predicted co2 binding affinity = 4.7618554141366705
+predicted homo-lumo gap = -0.12928157422299336
+1 molecule converted
+predicted co2 binding affinity = 4.643829271970368
+predicted homo-lumo gap = -0.10983717371853174
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:07:12.179125 47115258510144 run_dqn.py:301] Current TD error: 1.0983
+1 molecule converted
+predicted co2 binding affinity = 4.136875058818809
+predicted homo-lumo gap = -0.117170498196014
+1 molecule converted
+predicted co2 binding affinity = 4.454344994707114
+predicted homo-lumo gap = -0.12536724189023118
+1 molecule converted
+predicted co2 binding affinity = 4.45249399260384
+predicted homo-lumo gap = -0.11488332733812712
+I1120 11:07:20.349058 47115258510144 run_dqn.py:276] Episode 17/100 took 90.2326s
+I1120 11:07:20.349468 47115258510144 run_dqn.py:277] SMILES: OOc1c[nH]n2[nH]ooon2o1
+
+I1120 11:07:20.349570 47115258510144 run_dqn.py:279] The reward is: 4.3376106652657125
+1 molecule converted
+predicted co2 binding affinity = 5.688576687062042
+predicted homo-lumo gap = -0.34928844823198446
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:07:29.350285 47115258510144 run_dqn.py:301] Current TD error: 0.7050
+1 molecule converted
+predicted co2 binding affinity = 5.311462200855846
+predicted homo-lumo gap = -0.30710811987228936
+1 molecule converted
+predicted co2 binding affinity = 5.688444159757122
+predicted homo-lumo gap = -0.3492812084408641
+1 molecule converted
+predicted co2 binding affinity = 5.311674021262611
+predicted homo-lumo gap = -0.3071832173354814
+1 molecule converted
+predicted co2 binding affinity = 4.606092086045692
+predicted homo-lumo gap = -0.2842284504488326
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:07:46.314094 47115258510144 run_dqn.py:301] Current TD error: 0.6307
+1 molecule converted
+predicted co2 binding affinity = 4.718704957376968
+predicted homo-lumo gap = -0.25104162993823564
+1 molecule converted
+predicted co2 binding affinity = 4.659742422073849
+predicted homo-lumo gap = -0.25244893740482155
+1 molecule converted
+predicted co2 binding affinity = 4.728907822593538
+predicted homo-lumo gap = -0.28879774181389806
+1 molecule converted
+predicted co2 binding affinity = 4.727067962805162
+predicted homo-lumo gap = -0.28891067704949336
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:08:03.942258 47115258510144 run_dqn.py:301] Current TD error: 0.5784
+1 molecule converted
+predicted co2 binding affinity = 4.729952553811849
+predicted homo-lumo gap = -0.28890521011445713
+1 molecule converted
+predicted co2 binding affinity = 4.700432334013591
+predicted homo-lumo gap = -0.2299903105397867
+1 molecule converted
+predicted co2 binding affinity = 4.730632565790824
+predicted homo-lumo gap = -0.28892476768066544
+1 molecule converted
+predicted co2 binding affinity = 4.72946592241442
+predicted homo-lumo gap = -0.28898332144675365
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:08:22.253621 47115258510144 run_dqn.py:301] Current TD error: 0.3879
+1 molecule converted
+predicted co2 binding affinity = 4.436858855958899
+predicted homo-lumo gap = -0.24371831378710596
+1 molecule converted
+predicted co2 binding affinity = 4.511774608916991
+predicted homo-lumo gap = -0.22652344242125366
+1 molecule converted
+predicted co2 binding affinity = 4.718517208635831
+predicted homo-lumo gap = -0.2513537813396134
+1 molecule converted
+predicted co2 binding affinity = 4.490372472573862
+predicted homo-lumo gap = -0.2240865518450974
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:08:40.779784 47115258510144 run_dqn.py:301] Current TD error: 0.3437
+1 molecule converted
+predicted co2 binding affinity = 4.552226338250414
+predicted homo-lumo gap = -0.17521172634621607
+1 molecule converted
+predicted co2 binding affinity = 4.06307402217676
+predicted homo-lumo gap = -0.1783683437025978
+1 molecule converted
+predicted co2 binding affinity = 4.108518173344226
+predicted homo-lumo gap = -0.1826743743146686
+I1120 11:08:49.082786 47115258510144 run_dqn.py:276] Episode 18/100 took 88.733s
+I1120 11:08:49.083272 47115258510144 run_dqn.py:277] SMILES: n1no[nH][nH][nH]1
+
+I1120 11:08:49.083372 47115258510144 run_dqn.py:279] The reward is: 3.9258437990295576
+1 molecule converted
+predicted co2 binding affinity = 4.571527585642741
+predicted homo-lumo gap = -0.42679430817989683
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:08:58.390805 47115258510144 run_dqn.py:301] Current TD error: 0.2332
+1 molecule converted
+predicted co2 binding affinity = 5.03604864413013
+predicted homo-lumo gap = -0.34840981587883846
+1 molecule converted
+predicted co2 binding affinity = 5.368328146573525
+predicted homo-lumo gap = -0.3260572201796812
+1 molecule converted
+predicted co2 binding affinity = 4.952194502200193
+predicted homo-lumo gap = -0.33011343510476365
+1 molecule converted
+predicted co2 binding affinity = 5.248454698018062
+predicted homo-lumo gap = -0.2931003095209128
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:09:15.286504 47115258510144 run_dqn.py:301] Current TD error: 0.3522
+1 molecule converted
+predicted co2 binding affinity = 4.415797484854441
+predicted homo-lumo gap = -0.25861456886661216
+1 molecule converted
+predicted co2 binding affinity = 4.510022881912528
+predicted homo-lumo gap = -0.2230176178724328
+1 molecule converted
+predicted co2 binding affinity = 4.554008656488584
+predicted homo-lumo gap = -0.23628537595540067
+1 molecule converted
+predicted co2 binding affinity = 4.44624088861973
+predicted homo-lumo gap = -0.21985394763602883
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:09:32.998529 47115258510144 run_dqn.py:301] Current TD error: 0.4847
+1 molecule converted
+predicted co2 binding affinity = 4.290854689192466
+predicted homo-lumo gap = -0.2072007279764314
+1 molecule converted
+predicted co2 binding affinity = 4.7352296034763715
+predicted homo-lumo gap = -0.23300109908051425
+1 molecule converted
+predicted co2 binding affinity = 4.442632246624305
+predicted homo-lumo gap = -0.19870268998133156
+1 molecule converted
+predicted co2 binding affinity = 3.822303740130783
+predicted homo-lumo gap = -0.22151855884099803
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:09:50.876640 47115258510144 run_dqn.py:301] Current TD error: 0.3869
+1 molecule converted
+predicted co2 binding affinity = 4.233827039596671
+predicted homo-lumo gap = -0.1938031703329628
+1 molecule converted
+predicted co2 binding affinity = 4.39238474569019
+predicted homo-lumo gap = -0.1954788400995362
+1 molecule converted
+predicted co2 binding affinity = 4.6750421092595555
+predicted homo-lumo gap = -0.18098561160303106
+1 molecule converted
+predicted co2 binding affinity = 4.347443524309206
+predicted homo-lumo gap = -0.18351784517933112
+/users/PES0434/ucn2400/projects/mol_dqn_PI/baselines/baselines/deepq/replay_buffer.py:43: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(obses_t), np.array(actions), np.array(rewards), np.array(obses_tp1), np.array(dones)
+I1120 11:10:10.153913 47115258510144 run_dqn.py:301] Current TD error: 0.4893
+1 molecule converted
+predicted co2 binding affinity = 4.2946202712869646
+predicted homo-lumo gap = -0.17297962660722632
+1 molecule converted
+predicted co2 binding affinity = 4.262644716992602
+predicted homo-lumo gap = -0.1668526342910681
+1 molecule converted
+predicted co2 binding affinity = 3.8972538742814837
+predicted homo-lumo gap = -0.16189226930640466
+I1120 11:10:19.254047 47115258510144 run_dqn.py:276] Episode 19/100 took 90.1704s
+I1120 11:10:19.254317 47115258510144 run_dqn.py:277] SMILES: CNC1CC(CO)(N(ON=O)OOC#CN)NO1
+
+I1120 11:10:19.254625 47115258510144 run_dqn.py:279] The reward is: 3.735361604975079

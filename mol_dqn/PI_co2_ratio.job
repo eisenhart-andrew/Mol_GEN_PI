@@ -1,0 +1,23 @@
+#PBS -A PAA0004
+#PBS -N PI_CO2_optimization
+#PBS -l walltime=45:30:20,nodes=1:ppn=28:gpus=1
+#PBS -S /bin/bash
+#PBS -j oe
+
+set -vx
+
+locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
+st='date+%s'
+
+cd $locdir
+
+module load python/3.6-conda5.2
+source activate tensorflow_1.15
+
+export OUTPUT_DIR="./save-ratio"
+
+python optimize_co2rewarded_ratio_penalized.py --model_dir=${OUTPUT_DIR} --hparams="./configs/multi_obj_dqn.json" --start_molecule=""
+
+|| exit 1
+
+echo -----------------------------------------------------echo " Finished simulation" 

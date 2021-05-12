@@ -1,0 +1,417 @@
+
+locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
++ locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
+st='date+%s'
++ st=date+%s
+
+cd $locdir
++ cd /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
+
+module load python/3.6-conda5.2
++ module load python/3.6-conda5.2
+++ /usr/local/lmod/lmod/libexec/lmod bash load python/3.6-conda5.2
++ eval '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/usr/local/python/3.6-conda5.2/lib:1\;/users/PES0434/ucn2400/projects/ASE_ANI/lib:1\;/opt/mvapich2/intel/19.0/2.3.3/lib:1\;/usr/local/gnu/8.4.0/lib64:1\;/usr/local/gnu/8.4.0/lib:1\;/opt/intel/debugger_2019/libipt/intel64/lib:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:1\;/opt/torque/lib64:1\;/opt/torque/lib:1\;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:1\;/users/PES0434/ucn2400/orca:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/usr/local/python/3.6-conda5.2/lib:/users/PES0434/ucn2400/projects/ASE_ANI/lib:/opt/mvapich2/intel/19.0/2.3.3/lib:/usr/local/gnu/8.4.0/lib64:/usr/local/gnu/8.4.0/lib:/opt/intel/debugger_2019/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:/opt/torque/lib64:/opt/torque/lib::/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:/users/PES0434/ucn2400/orca;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=xalt/latest:1\;gcc-compatibility/8.4.0:1\;intel/19.0.5:1\;mvapich2/2.3.3:1\;modules/sp2020:1\;python/3.6-conda5.2:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=xalt/latest:gcc-compatibility/8.4.0:intel/19.0.5:mvapich2/2.3.3:modules/sp2020:python/3.6-conda5.2;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/usr/local/python/3.6-conda5.2/share/man:1\;/opt/mvapich2/intel/19.0/2.3.3/share/man:1\;/opt/intel/itac/2019.5.041/man:1\;/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:1\;/opt/intel/inspector_2019/man:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:1\;/opt/torque/share/man:1\;/opt/moab/man:1\;/usr/local/lmod/lmod/share/man:1\;/usr/share/man/overrides:1\;/usr/share/man:1\;/usr/local/share/man:1\;/opt/ibutils/share/man:1\;/opt/ddn/ime/share/man:2\;/opt/puppetlabs/puppet/share/man:1\;/opt/intel/vtune_amplifier_2019/man:1\;/opt/intel/advisor_2019/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/usr/local/python/3.6-conda5.2/share/man:/opt/mvapich2/intel/19.0/2.3.3/share/man:/opt/intel/itac/2019.5.041/man:/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:/opt/intel/inspector_2019/man:/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:/opt/torque/share/man:/opt/moab/man:/usr/local/lmod/lmod/share/man:/usr/share/man/overrides:/usr/share/man:/usr/local/share/man:/opt/ibutils/share/man:/opt/ddn/ime/share/man:/opt/puppetlabs/puppet/share/man:/opt/intel/vtune_amplifier_2019/man:/opt/intel/advisor_2019/man;' export 'MANPATH;' 'MODULEPATH=/usr/local/share/lmodfiles/MPI/intel/19.0/mvapich2/2.3:/usr/local/share/lmodfiles/Compiler/intel/19.0:/usr/local/share/lmodfiles/Linux:/usr/local/share/lmodfiles/Core:/usr/local/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' 'OSC_PYTHON_DIR=/usr/local/python/3.6-conda5.2;' export 'OSC_PYTHON_DIR;' '__LMOD_REF_COUNT_PATH=/usr/local/xalt/xalt/bin:1\;/usr/local/python/3.6-conda5.2/bin:1\;/opt/mvapich2/intel/19.0/2.3.3/bin:1\;/usr/local/gnu/8.4.0/bin:1\;/opt/intel/itac/2019.5.041/bin:1\;/opt/intel/advisor_2019/bin64:1\;/opt/intel/vtune_amplifier_2019/bin64:1\;/opt/intel/inspector_2019/bin64:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:1\;/usr/local/software_usage:1\;/opt/torque/bin:2\;/usr/lib64/qt-3.3/bin:2\;/opt/osc/bin:2\;/opt/moab/bin:2\;/bin:1\;/usr/bin:3\;/usr/local/bin:2\;/usr/local/sbin:2\;/usr/sbin:2\;/opt/ibutils/bin:2\;/opt/ddn/ime/bin:2\;/opt/puppetlabs/bin:2\;/bin/sbin:1\;/sbin/usr/local/bin:1\;/usr/X11/bin:1\;/users/PES0434/ucn2400/bin:1\;/usr/local/gaussian/g16a03/g16/bsd:1\;/usr/local/gaussian/g16a03/g16:1\;/opt/mvapich2/intel/18.0/2.3/bin:1\;/usr/local/gnu/7.3.0/bin:1\;/opt/intel/itac/2018.3.022/bin:1\;/opt/intel/advisor_2018/bin64:1\;/opt/intel/vtune_amplifier_2018/bin64:1\;/opt/intel/inspector_2018/bin64:1\;/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:1\;/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:1\;/users/PES0434/ucn2400/moltemplate/moltemplate:1\;/users/PES0434/ucn2400/moltemplate:1\;/users/PES0434/ucn2400/orca:1\;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:1\;/users/PES0434/ucn2400/travis-src-190101/exe:1\;/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:1\;.local/bin:1\;/users/PES0434/ucn2400/.local/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin;' export 'PATH;' 'PYTHON_HOME=/usr/local/python/3.6-conda5.2;' export 'PYTHON_HOME;' 'TCL_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tcl8.5;' export 'TCL_LIBRARY;' 'TK_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tk8.5;' export 'TK_LIBRARY;' '__LMOD_REF_COUNT__LMFILES_=/usr/local/share/lmodfiles/Core/xalt/latest.lua:1\;/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:1\;/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:1\;/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:1\;/usr/local/share/lmodfiles/Core/modules/sp2020.lua:1\;/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/usr/local/share/lmodfiles/Core/xalt/latest.lua:/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:/usr/local/share/lmodfiles/Core/modules/sp2020.lua:/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iZ2NjLWNvbXBhdGliaWxpdHkiLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtbImdjYy1jb21wYXRpYmlsaXR5Il09e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9nY2MtY29tcGF0aWJpbGl0eS84LjQuMC5sdWEiLFsiZnVsbE5hbWUiXT0iZ2NjLWNvbXBhdGliaWxpdHkvOC40LjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJd;' export '_ModuleTable001_;' '_ModuleTable002_=PSJnY2MtY29tcGF0aWJpbGl0eS84LjQuMCIsfSxpbnRlbD17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL2ludGVsLzE5LjAuNS5sdWEiLFsiZnVsbE5hbWUiXT0iaW50ZWwvMTkuMC41IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwiLH0sbW9kdWxlcz17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1v;' export '_ModuleTable002_;' '_ModuleTable003_=ZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTkuMC9tdmFwaWNoMi8yLjMuMy5sdWEiLFsiZnVsbE5hbWUiXT0ibXZhcGljaDIvMi4zLjMiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJtdmFwaWNoMiIsfSxweXRob249e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9weXRob24vMy42LWNvbmRhNS4yLmx1YSIsWyJmdWxsTmFtZSJdPSJweXRob24vMy42LWNvbmRhNS4yIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsi;' export '_ModuleTable003_;' '_ModuleTable004_=dXNlck5hbWUiXT0icHl0aG9uLzMuNi1jb25kYTUuMiIsfSx4YWx0PXtbImZuIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmUveGFsdC9sYXRlc3QubHVhIixbImZ1bGxOYW1lIl09InhhbHQvbGF0ZXN0IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ieGFsdCIsfSx9LG1wYXRoQT17Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL01QSS9pbnRlbC8xOS4wL212YXBpY2gyLzIuMyIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE5LjAiLCIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9MaW51eCIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZp;' export '_ModuleTable004_;' '_ModuleTable005_=bGVzL0NvcmUiLCIvdXNyL2xvY2FsL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0xpbnV4Oi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmU6L3Vzci9sb2NhbC9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;'
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/usr/local/python/3.6-conda5.2/lib:1\;/users/PES0434/ucn2400/projects/ASE_ANI/lib:1\;/opt/mvapich2/intel/19.0/2.3.3/lib:1\;/usr/local/gnu/8.4.0/lib64:1\;/usr/local/gnu/8.4.0/lib:1\;/opt/intel/debugger_2019/libipt/intel64/lib:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:1\;/opt/torque/lib64:1\;/opt/torque/lib:1\;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:1\;/users/PES0434/ucn2400/orca:1; export __LMOD_REF_COUNT_LD_LIBRARY_PATH; LD_LIBRARY_PATH=/usr/local/python/3.6-conda5.2/lib:/users/PES0434/ucn2400/projects/ASE_ANI/lib:/opt/mvapich2/intel/19.0/2.3.3/lib:/usr/local/gnu/8.4.0/lib64:/usr/local/gnu/8.4.0/lib:/opt/intel/debugger_2019/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:/opt/torque/lib64:/opt/torque/lib::/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:/users/PES0434/ucn2400/orca; export LD_LIBRARY_PATH; __LMOD_REF_COUNT_LOADEDMODULES=xalt/latest:1\;gcc-compatibility/8.4.0:1\;intel/19.0.5:1\;mvapich2/2.3.3:1\;modules/sp2020:1\;python/3.6-conda5.2:1; export __LMOD_REF_COUNT_LOADEDMODULES; LOADEDMODULES=xalt/latest:gcc-compatibility/8.4.0:intel/19.0.5:mvapich2/2.3.3:modules/sp2020:python/3.6-conda5.2; export LOADEDMODULES; __LMOD_REF_COUNT_MANPATH=/usr/local/python/3.6-conda5.2/share/man:1\;/opt/mvapich2/intel/19.0/2.3.3/share/man:1\;/opt/intel/itac/2019.5.041/man:1\;/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:1\;/opt/intel/inspector_2019/man:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:1\;/opt/torque/share/man:1\;/opt/moab/man:1\;/usr/local/lmod/lmod/share/man:1\;/usr/share/man/overrides:1\;/usr/share/man:1\;/usr/local/share/man:1\;/opt/ibutils/share/man:1\;/opt/ddn/ime/share/man:2\;/opt/puppetlabs/puppet/share/man:1\;/opt/intel/vtune_amplifier_2019/man:1\;/opt/intel/advisor_2019/man:1; export __LMOD_REF_COUNT_MANPATH; MANPATH=/usr/local/python/3.6-conda5.2/share/man:/opt/mvapich2/intel/19.0/2.3.3/share/man:/opt/intel/itac/2019.5.041/man:/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:/opt/intel/inspector_2019/man:/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:/opt/torque/share/man:/opt/moab/man:/usr/local/lmod/lmod/share/man:/usr/share/man/overrides:/usr/share/man:/usr/local/share/man:/opt/ibutils/share/man:/opt/ddn/ime/share/man:/opt/puppetlabs/puppet/share/man:/opt/intel/vtune_amplifier_2019/man:/opt/intel/advisor_2019/man; export MANPATH; MODULEPATH=/usr/local/share/lmodfiles/MPI/intel/19.0/mvapich2/2.3:/usr/local/share/lmodfiles/Compiler/intel/19.0:/usr/local/share/lmodfiles/Linux:/usr/local/share/lmodfiles/Core:/usr/local/lmod/lmod/modulefiles/Core; export MODULEPATH; OSC_PYTHON_DIR=/usr/local/python/3.6-conda5.2; export OSC_PYTHON_DIR; __LMOD_REF_COUNT_PATH=/usr/local/xalt/xalt/bin:1\;/usr/local/python/3.6-conda5.2/bin:1\;/opt/mvapich2/intel/19.0/2.3.3/bin:1\;/usr/local/gnu/8.4.0/bin:1\;/opt/intel/itac/2019.5.041/bin:1\;/opt/intel/advisor_2019/bin64:1\;/opt/intel/vtune_amplifier_2019/bin64:1\;/opt/intel/inspector_2019/bin64:1\;/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:1\;/usr/local/software_usage:1\;/opt/torque/bin:2\;/usr/lib64/qt-3.3/bin:2\;/opt/osc/bin:2\;/opt/moab/bin:2\;/bin:1\;/usr/bin:3\;/usr/local/bin:2\;/usr/local/sbin:2\;/usr/sbin:2\;/opt/ibutils/bin:2\;/opt/ddn/ime/bin:2\;/opt/puppetlabs/bin:2\;/bin/sbin:1\;/sbin/usr/local/bin:1\;/usr/X11/bin:1\;/users/PES0434/ucn2400/bin:1\;/usr/local/gaussian/g16a03/g16/bsd:1\;/usr/local/gaussian/g16a03/g16:1\;/opt/mvapich2/intel/18.0/2.3/bin:1\;/usr/local/gnu/7.3.0/bin:1\;/opt/intel/itac/2018.3.022/bin:1\;/opt/intel/advisor_2018/bin64:1\;/opt/intel/vtune_amplifier_2018/bin64:1\;/opt/intel/inspector_2018/bin64:1\;/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:1\;/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:1\;/users/PES0434/ucn2400/moltemplate/moltemplate:1\;/users/PES0434/ucn2400/moltemplate:1\;/users/PES0434/ucn2400/orca:1\;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:1\;/users/PES0434/ucn2400/travis-src-190101/exe:1\;/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:1\;.local/bin:1\;/users/PES0434/ucn2400/.local/bin:1; export __LMOD_REF_COUNT_PATH; PATH=/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin; export PATH; PYTHON_HOME=/usr/local/python/3.6-conda5.2; export PYTHON_HOME; TCL_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tcl8.5; export TCL_LIBRARY; TK_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tk8.5; export TK_LIBRARY; __LMOD_REF_COUNT__LMFILES_=/usr/local/share/lmodfiles/Core/xalt/latest.lua:1\;/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:1\;/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:1\;/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:1\;/usr/local/share/lmodfiles/Core/modules/sp2020.lua:1\;/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua:1; export __LMOD_REF_COUNT__LMFILES_; _LMFILES_=/usr/local/share/lmodfiles/Core/xalt/latest.lua:/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:/usr/local/share/lmodfiles/Core/modules/sp2020.lua:/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua; export _LMFILES_; _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iZ2NjLWNvbXBhdGliaWxpdHkiLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtbImdjYy1jb21wYXRpYmlsaXR5Il09e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9nY2MtY29tcGF0aWJpbGl0eS84LjQuMC5sdWEiLFsiZnVsbE5hbWUiXT0iZ2NjLWNvbXBhdGliaWxpdHkvOC40LjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJd; export _ModuleTable001_; _ModuleTable002_=PSJnY2MtY29tcGF0aWJpbGl0eS84LjQuMCIsfSxpbnRlbD17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL2ludGVsLzE5LjAuNS5sdWEiLFsiZnVsbE5hbWUiXT0iaW50ZWwvMTkuMC41IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwiLH0sbW9kdWxlcz17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1v; export _ModuleTable002_; _ModuleTable003_=ZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTkuMC9tdmFwaWNoMi8yLjMuMy5sdWEiLFsiZnVsbE5hbWUiXT0ibXZhcGljaDIvMi4zLjMiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJtdmFwaWNoMiIsfSxweXRob249e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9weXRob24vMy42LWNvbmRhNS4yLmx1YSIsWyJmdWxsTmFtZSJdPSJweXRob24vMy42LWNvbmRhNS4yIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsi; export _ModuleTable003_; _ModuleTable004_=dXNlck5hbWUiXT0icHl0aG9uLzMuNi1jb25kYTUuMiIsfSx4YWx0PXtbImZuIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmUveGFsdC9sYXRlc3QubHVhIixbImZ1bGxOYW1lIl09InhhbHQvbGF0ZXN0IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ieGFsdCIsfSx9LG1wYXRoQT17Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL01QSS9pbnRlbC8xOS4wL212YXBpY2gyLzIuMyIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE5LjAiLCIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9MaW51eCIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZp; export _ModuleTable004_; _ModuleTable005_=bGVzL0NvcmUiLCIvdXNyL2xvY2FsL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0xpbnV4Oi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmU6L3Vzci9sb2NhbC9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==; export _ModuleTable005_; _ModuleTable_Sz_=5; export _ModuleTable_Sz_;
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/usr/local/python/3.6-conda5.2/lib:1;/users/PES0434/ucn2400/projects/ASE_ANI/lib:1;/opt/mvapich2/intel/19.0/2.3.3/lib:1;/usr/local/gnu/8.4.0/lib64:1;/usr/local/gnu/8.4.0/lib:1;/opt/intel/debugger_2019/libipt/intel64/lib:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:1;/opt/torque/lib64:1;/opt/torque/lib:1;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:1;/users/PES0434/ucn2400/orca:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/usr/local/python/3.6-conda5.2/lib:/users/PES0434/ucn2400/projects/ASE_ANI/lib:/opt/mvapich2/intel/19.0/2.3.3/lib:/usr/local/gnu/8.4.0/lib64:/usr/local/gnu/8.4.0/lib:/opt/intel/debugger_2019/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:/opt/torque/lib64:/opt/torque/lib::/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/lib:/users/PES0434/ucn2400/orca
+++ export LD_LIBRARY_PATH
+++ __LMOD_REF_COUNT_LOADEDMODULES='xalt/latest:1;gcc-compatibility/8.4.0:1;intel/19.0.5:1;mvapich2/2.3.3:1;modules/sp2020:1;python/3.6-conda5.2:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=xalt/latest:gcc-compatibility/8.4.0:intel/19.0.5:mvapich2/2.3.3:modules/sp2020:python/3.6-conda5.2
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/usr/local/python/3.6-conda5.2/share/man:1;/opt/mvapich2/intel/19.0/2.3.3/share/man:1;/opt/intel/itac/2019.5.041/man:1;/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:1;/opt/intel/inspector_2019/man:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:1;/opt/torque/share/man:1;/opt/moab/man:1;/usr/local/lmod/lmod/share/man:1;/usr/share/man/overrides:1;/usr/share/man:1;/usr/local/share/man:1;/opt/ibutils/share/man:1;/opt/ddn/ime/share/man:2;/opt/puppetlabs/puppet/share/man:1;/opt/intel/vtune_amplifier_2019/man:1;/opt/intel/advisor_2019/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/usr/local/python/3.6-conda5.2/share/man:/opt/mvapich2/intel/19.0/2.3.3/share/man:/opt/intel/itac/2019.5.041/man:/opt/intel/documentation_2019/en/debugger/gdb-igfx/man:/opt/intel/inspector_2019/man:/opt/intel/compilers_and_libraries_2019.5.281/linux/man/common:/opt/torque/share/man:/opt/moab/man:/usr/local/lmod/lmod/share/man:/usr/share/man/overrides:/usr/share/man:/usr/local/share/man:/opt/ibutils/share/man:/opt/ddn/ime/share/man:/opt/puppetlabs/puppet/share/man:/opt/intel/vtune_amplifier_2019/man:/opt/intel/advisor_2019/man
+++ export MANPATH
+++ MODULEPATH=/usr/local/share/lmodfiles/MPI/intel/19.0/mvapich2/2.3:/usr/local/share/lmodfiles/Compiler/intel/19.0:/usr/local/share/lmodfiles/Linux:/usr/local/share/lmodfiles/Core:/usr/local/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ OSC_PYTHON_DIR=/usr/local/python/3.6-conda5.2
+++ export OSC_PYTHON_DIR
+++ __LMOD_REF_COUNT_PATH='/usr/local/xalt/xalt/bin:1;/usr/local/python/3.6-conda5.2/bin:1;/opt/mvapich2/intel/19.0/2.3.3/bin:1;/usr/local/gnu/8.4.0/bin:1;/opt/intel/itac/2019.5.041/bin:1;/opt/intel/advisor_2019/bin64:1;/opt/intel/vtune_amplifier_2019/bin64:1;/opt/intel/inspector_2019/bin64:1;/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:1;/usr/local/software_usage:1;/opt/torque/bin:2;/usr/lib64/qt-3.3/bin:2;/opt/osc/bin:2;/opt/moab/bin:2;/bin:1;/usr/bin:3;/usr/local/bin:2;/usr/local/sbin:2;/usr/sbin:2;/opt/ibutils/bin:2;/opt/ddn/ime/bin:2;/opt/puppetlabs/bin:2;/bin/sbin:1;/sbin/usr/local/bin:1;/usr/X11/bin:1;/users/PES0434/ucn2400/bin:1;/usr/local/gaussian/g16a03/g16/bsd:1;/usr/local/gaussian/g16a03/g16:1;/opt/mvapich2/intel/18.0/2.3/bin:1;/usr/local/gnu/7.3.0/bin:1;/opt/intel/itac/2018.3.022/bin:1;/opt/intel/advisor_2018/bin64:1;/opt/intel/vtune_amplifier_2018/bin64:1;/opt/intel/inspector_2018/bin64:1;/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:1;/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:1;/users/PES0434/ucn2400/moltemplate/moltemplate:1;/users/PES0434/ucn2400/moltemplate:1;/users/PES0434/ucn2400/orca:1;/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:1;/users/PES0434/ucn2400/travis-src-190101/exe:1;/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:1;.local/bin:1;/users/PES0434/ucn2400/.local/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin
+++ export PATH
+++ PYTHON_HOME=/usr/local/python/3.6-conda5.2
+++ export PYTHON_HOME
+++ TCL_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tcl8.5
+++ export TCL_LIBRARY
+++ TK_LIBRARY=/usr/local/python/3.6-conda5.2/lib/tk8.5
+++ export TK_LIBRARY
+++ __LMOD_REF_COUNT__LMFILES_='/usr/local/share/lmodfiles/Core/xalt/latest.lua:1;/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:1;/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:1;/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:1;/usr/local/share/lmodfiles/Core/modules/sp2020.lua:1;/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/usr/local/share/lmodfiles/Core/xalt/latest.lua:/usr/local/share/lmodfiles/Core/gcc-compatibility/8.4.0.lua:/usr/local/share/lmodfiles/Core/intel/19.0.5.lua:/usr/local/share/lmodfiles/Compiler/intel/19.0/mvapich2/2.3.3.lua:/usr/local/share/lmodfiles/Core/modules/sp2020.lua:/usr/local/share/lmodfiles/Core/python/3.6-conda5.2.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iZ2NjLWNvbXBhdGliaWxpdHkiLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtbImdjYy1jb21wYXRpYmlsaXR5Il09e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9nY2MtY29tcGF0aWJpbGl0eS84LjQuMC5sdWEiLFsiZnVsbE5hbWUiXT0iZ2NjLWNvbXBhdGliaWxpdHkvOC40LjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJd
+++ export _ModuleTable001_
+++ _ModuleTable002_=PSJnY2MtY29tcGF0aWJpbGl0eS84LjQuMCIsfSxpbnRlbD17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL2ludGVsLzE5LjAuNS5sdWEiLFsiZnVsbE5hbWUiXT0iaW50ZWwvMTkuMC41IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwiLH0sbW9kdWxlcz17WyJmbiJdPSIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1v
+++ export _ModuleTable002_
+++ _ModuleTable003_=ZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTkuMC9tdmFwaWNoMi8yLjMuMy5sdWEiLFsiZnVsbE5hbWUiXT0ibXZhcGljaDIvMi4zLjMiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJtdmFwaWNoMiIsfSxweXRob249e1siZm4iXT0iL3Vzci9sb2NhbC9zaGFyZS9sbW9kZmlsZXMvQ29yZS9weXRob24vMy42LWNvbmRhNS4yLmx1YSIsWyJmdWxsTmFtZSJdPSJweXRob24vMy42LWNvbmRhNS4yIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsi
+++ export _ModuleTable003_
+++ _ModuleTable004_=dXNlck5hbWUiXT0icHl0aG9uLzMuNi1jb25kYTUuMiIsfSx4YWx0PXtbImZuIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmUveGFsdC9sYXRlc3QubHVhIixbImZ1bGxOYW1lIl09InhhbHQvbGF0ZXN0IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ieGFsdCIsfSx9LG1wYXRoQT17Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL01QSS9pbnRlbC8xOS4wL212YXBpY2gyLzIuMyIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE5LjAiLCIvdXNyL2xvY2FsL3NoYXJlL2xtb2RmaWxlcy9MaW51eCIsIi91c3IvbG9jYWwvc2hhcmUvbG1vZGZp
+++ export _ModuleTable004_
+++ _ModuleTable005_=bGVzL0NvcmUiLCIvdXNyL2xvY2FsL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0xpbnV4Oi91c3IvbG9jYWwvc2hhcmUvbG1vZGZpbGVzL0NvcmU6L3Vzci9sb2NhbC9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==
+++ export _ModuleTable005_
+++ _ModuleTable_Sz_=5
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
+source activate tensorflow_1.15
++ source activate tensorflow_1.15
+#!/bin/sh
+_CONDA_ROOT="/usr/local/python/3.6-conda5.2"
+++ _CONDA_ROOT=/usr/local/python/3.6-conda5.2
+\. "$_CONDA_ROOT/etc/profile.d/conda.sh" || return $?
+++ . /usr/local/python/3.6-conda5.2/etc/profile.d/conda.sh
+_CONDA_EXE="/usr/local/python/3.6-conda5.2/bin/conda"
++++ _CONDA_EXE=/usr/local/python/3.6-conda5.2/bin/conda
+_CONDA_ROOT="/usr/local/python/3.6-conda5.2"
++++ _CONDA_ROOT=/usr/local/python/3.6-conda5.2
+_conda_set_vars() {
+    # set _CONDA_SHELL_FLAVOR
+    if [ -n "${BASH_VERSION:+x}" ]; then
+        _CONDA_SHELL_FLAVOR=bash
+    elif [ -n "${ZSH_VERSION:+x}" ]; then
+        _CONDA_SHELL_FLAVOR=zsh
+    elif [ -n "${KSH_VERSION:+x}" ]; then
+        _CONDA_SHELL_FLAVOR=ksh
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        _CONDA_SHELL_FLAVOR=posh
+    else
+        # default to dash; if we run into a problem here, please raise an issue
+        _CONDA_SHELL_FLAVOR=dash
+    fi
+
+    if [ -z "${_CONDA_EXE+x}" ]; then
+        if [ -n "${_CONDA_ROOT:+x}" ]; then
+            # typically this should be for dev only; _CONDA_EXE should be written at top of file
+            # for normal installs
+            _CONDA_EXE="$_CONDA_ROOT/conda/shell/bin/conda"
+        fi
+        if ! [ -f "${_CONDA_EXE-x}" ]; then
+            _CONDA_EXE="$PWD/conda/shell/bin/conda"
+        fi
+    fi
+
+    # We're not allowing PS1 to be unbound. It must at least be set.
+    # However, we're not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+
+}
+
+
+_conda_hashr() {
+    case "$_CONDA_SHELL_FLAVOR" in
+        zsh) \rehash;;
+        posh) ;;
+        *) \hash -r;;
+    esac
+}
+
+
+_conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+
+    \local ask_conda
+    ask_conda="$(PS1="$PS1" $_CONDA_EXE shell.posix activate "$@")" || \return $?
+    \eval "$ask_conda"
+
+    _conda_hashr
+}
+
+_conda_deactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="$PS1" $_CONDA_EXE shell.posix deactivate "$@")" || \return $?
+    \eval "$ask_conda"
+
+    _conda_hashr
+}
+
+_conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="$PS1" $_CONDA_EXE shell.posix reactivate)" || \return $?
+    \eval "$ask_conda"
+
+    _conda_hashr
+}
+
+
+conda() {
+    if [ "$#" -lt 1 ]; then
+        $_CONDA_EXE
+    else
+        \local cmd="$1"
+        shift
+        case "$cmd" in
+            activate)
+                _conda_activate "$@"
+                ;;
+            deactivate)
+                _conda_deactivate "$@"
+                ;;
+            install|update|uninstall|remove)
+                $_CONDA_EXE "$cmd" "$@" && _conda_reactivate
+                ;;
+            *)
+                $_CONDA_EXE "$cmd" "$@"
+                ;;
+        esac
+    fi
+}
+
+
+_conda_set_vars
++++ _conda_set_vars
++++ '[' -n x ']'
++++ _CONDA_SHELL_FLAVOR=bash
++++ '[' -z x ']'
++++ '[' -z '' ']'
++++ PS1=
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+fi
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
+
+_conda_activate "$@"
+++ _conda_activate tensorflow_1.15
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ /usr/local/python/3.6-conda5.2/bin/conda shell.posix activate tensorflow_1.15
+++ ask_conda='PS1='\''(tensorflow_1.15) '\''
+\export CONDA_DEFAULT_ENV='\''tensorflow_1.15'\''
+\export CONDA_EXE='\''/usr/local/python/3.6-conda5.2/bin/conda'\''
+\export CONDA_PREFIX='\''/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15'\''
+\export CONDA_PROMPT_MODIFIER='\''(tensorflow_1.15) '\''
+\export CONDA_PYTHON_EXE='\''/usr/local/python/3.6-conda5.2/bin/python'\''
+\export CONDA_SHLVL='\''1'\''
+\export PATH='\''/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/bin:/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin'\'''
+++ eval 'PS1='\''(tensorflow_1.15) '\''
+\export CONDA_DEFAULT_ENV='\''tensorflow_1.15'\''
+\export CONDA_EXE='\''/usr/local/python/3.6-conda5.2/bin/conda'\''
+\export CONDA_PREFIX='\''/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15'\''
+\export CONDA_PROMPT_MODIFIER='\''(tensorflow_1.15) '\''
+\export CONDA_PYTHON_EXE='\''/usr/local/python/3.6-conda5.2/bin/python'\''
+\export CONDA_SHLVL='\''1'\''
+\export PATH='\''/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/bin:/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin'\'''
+PS1='(tensorflow_1.15) '
++++ PS1='(tensorflow_1.15) '
+\export CONDA_DEFAULT_ENV='tensorflow_1.15'
++++ export CONDA_DEFAULT_ENV=tensorflow_1.15
++++ CONDA_DEFAULT_ENV=tensorflow_1.15
+\export CONDA_EXE='/usr/local/python/3.6-conda5.2/bin/conda'
++++ export CONDA_EXE=/usr/local/python/3.6-conda5.2/bin/conda
++++ CONDA_EXE=/usr/local/python/3.6-conda5.2/bin/conda
+\export CONDA_PREFIX='/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15'
++++ export CONDA_PREFIX=/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15
++++ CONDA_PREFIX=/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15
+\export CONDA_PROMPT_MODIFIER='(tensorflow_1.15) '
++++ export 'CONDA_PROMPT_MODIFIER=(tensorflow_1.15) '
++++ CONDA_PROMPT_MODIFIER='(tensorflow_1.15) '
+\export CONDA_PYTHON_EXE='/usr/local/python/3.6-conda5.2/bin/python'
++++ export CONDA_PYTHON_EXE=/usr/local/python/3.6-conda5.2/bin/python
++++ CONDA_PYTHON_EXE=/usr/local/python/3.6-conda5.2/bin/python
+\export CONDA_SHLVL='1'
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
+\export PATH='/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/bin:/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin'
++++ export PATH=/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/bin:/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin
++++ PATH=/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/bin:/usr/local/xalt/xalt/bin:/usr/local/python/3.6-conda5.2/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/usr/local/gnu/8.4.0/bin:/opt/intel/itac/2019.5.041/bin:/opt/intel/advisor_2019/bin64:/opt/intel/vtune_amplifier_2019/bin64:/opt/intel/inspector_2019/bin64:/opt/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64:/usr/local/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/bin/sbin:/sbin/usr/local/bin:/usr/X11/bin:/users/PES0434/ucn2400/bin:/usr/local/gaussian/g16a03/g16/bsd:/usr/local/gaussian/g16a03/g16:/opt/mvapich2/intel/18.0/2.3/bin:/usr/local/gnu/7.3.0/bin:/opt/intel/itac/2018.3.022/bin:/opt/intel/advisor_2018/bin64:/opt/intel/vtune_amplifier_2018/bin64:/opt/intel/inspector_2018/bin64:/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64:/users/PES0434/ucn2400/moltemplate/moltemplate/scripts:/users/PES0434/ucn2400/moltemplate/moltemplate:/users/PES0434/ucn2400/moltemplate:/users/PES0434/ucn2400/orca:/users/PES0434/ucn2400/openmpi-2.0.2-install_gcc/bin:/users/PES0434/ucn2400/travis-src-190101/exe:/users/PES0434/ucn2400/projects/MDCM-ML/gdma-2.2.11/bin:.local/bin:/users/PES0434/ucn2400/.local/bin
+++ _conda_hashr
+++ case "$_CONDA_SHELL_FLAVOR" in
+++ hash -r
+
+export OUTPUT_DIR="./save-ratio"
++ export OUTPUT_DIR=./save-ratio
++ OUTPUT_DIR=./save-ratio
+
+python optimize_co2rewarded_ratio_penalized.py --model_dir=${OUTPUT_DIR} --hparams="./configs/multi_obj_dqn.json" --start_molecule=""
++ python optimize_co2rewarded_ratio_penalized.py --model_dir=./save-ratio --hparams=./configs/multi_obj_dqn.json --start_molecule=
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-11-21 03:23:42.345185: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-21 03:23:42.388139: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2400255000 Hz
+2020-11-21 03:23:42.390254: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5585f0351810 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-21 03:23:42.390311: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-27
+OMP: Info #214: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #156: KMP_AFFINITY: 28 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #285: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L3 cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L2 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "L1 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "thread" is equivalent to "core".
+OMP: Info #191: KMP_AFFINITY: 2 sockets x 14 cores/socket x 1 thread/core (28 total cores)
+OMP: Info #216: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to socket 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to socket 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to socket 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to socket 0 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to socket 0 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to socket 0 core 5 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to socket 0 core 6 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to socket 0 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to socket 0 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to socket 0 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to socket 0 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to socket 0 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to socket 0 core 13 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to socket 0 core 14 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to socket 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to socket 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to socket 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to socket 1 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to socket 1 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to socket 1 core 5 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to socket 1 core 6 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to socket 1 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to socket 1 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to socket 1 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to socket 1 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to socket 1 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to socket 1 core 13 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to socket 1 core 14 
+OMP: Info #252: KMP_AFFINITY: pid 29600 tid 29600 thread 0 bound to OS proc set 0
+2020-11-21 03:23:42.395329: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/deep_q_networks.py:635: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W1121 03:23:42.495397 47372498811712 deprecation.py:323] From /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/deep_q_networks.py:635: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W1121 03:23:42.496378 47372498811712 deprecation.py:323] From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py:5520: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W1121 03:23:46.927868 47372498811712 deprecation.py:323] From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py:5520: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+I1121 03:24:00.297596 47372498811712 run_dqn.py:276] Episode 1/3000 took 12.5252s
+I1121 03:24:00.313897 47372498811712 run_dqn.py:277] SMILES: OOC(O)n1[nH]oo[nH]1
+
+I1121 03:24:00.315289 47372498811712 run_dqn.py:279] The reward is: 5.2893710309907345
+1 molecule converted
+Rips(maxdim=1, thresh=inf, coeff=2, do_cocycles=False, n_perm = None, verbose=True)
+predicted co2 binding affinity = 4.817169537933779
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.728336022829886
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.728313730305885
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.267748740427955
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.05681641370365
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.7272553067189556
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.727858434817438
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.7282260757064165
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.267704966477545
+ratio reward  = 0.0
+predicted co2 binding affinity = 4.465001659532184
+ratio reward  = 0.0
+predicted co2 binding affinity = 5.231371745303914
+ratio reward  = 0.0
+predicted co2 binding affinity = 5.230673884046997
+ratio reward  = 0.0
+predicted co2 binding affinity = 5.33133791870069
+ratio reward  = 0.2
+predicted co2 binding affinity = 4.849254723092226
+ratio reward  = 0.2
+predicted co2 binding affinity = 4.726903163219957
+ratio reward  = 0.16666666666666666
+predicted co2 binding affinity = 4.532936819771557
+ratio reward  = 0.14285714285714285
+predicted co2 binding affinity = 4.5882184680086695
+ratio reward  = 0.125
+predicted co2 binding affinity = 4.982056485388366
+ratio reward  = 0.14285714285714285
+predicted co2 binding affinity = 5.014936689013913
+ratio reward  = 0.125
+predicted co2 binding affinity = 5.1643710309907345
+ratio reward  = 0.125
+predicted co2 binding affinity = 4.5719849288001555
+Traceback (most recent call last):
+  File "optimize_co2rewarded_ratio_penalized.py", line 156, in <module>
+    app.run(main)
+  File "/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "optimize_co2rewarded_ratio_penalized.py", line 149, in main
+    dqn=dqn,
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 228, in run_training
+    beta_schedule=beta_schedule)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 271, in _episode
+    head=head)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 336, in _step
+    result = environment.step(action)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/molecules.py", line 471, in step
+    reward=self._reward(),
+  File "optimize_co2rewarded_ratio_penalized.py", line 116, in _reward
+    return PI_reward(molecule)
+  File "optimize_co2rewarded_ratio_penalized.py", line 101, in PI_reward
+    ratioreward = carbons / (nitrogens + oxygens)
+ZeroDivisionError: division by zero
+
+|| exit 1
+/var/spool/torque/mom_priv/jobs/12060376.owens-batch.ten.osc.edu.SC: line 37: syntax error near unexpected token `||'
+/var/spool/torque/mom_priv/jobs/12060376.owens-batch.ten.osc.edu.SC: line 37: `|| exit 1'
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28:gpus=1
+mem=120820mb
+-----------------------
+Resources used:
+cput=00:00:17
+walltime=00:01:15
+mem=0.134GB
+vmem=1.043GB
+-----------------------

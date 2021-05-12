@@ -1,0 +1,151 @@
+
+locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
++ locdir=/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
+st='date+%s'
++ st=date+%s
+
+cd $locdir
++ cd /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph
+
+module load python/3.6-conda5.2
++ module load python/3.6-conda5.2
+++ /usr/local/lmod/lmod/libexec/lmod bash load python/3.6-conda5.2
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-11-20 19:36:29.953105: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-20 19:36:29.998115: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2399765000 Hz
+2020-11-20 19:36:30.000351: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557ce1bf1340 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-20 19:36:30.000396: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-27
+OMP: Info #214: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #156: KMP_AFFINITY: 28 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #285: KMP_AFFINITY: topology layer "LL cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L3 cache" is equivalent to "socket".
+OMP: Info #285: KMP_AFFINITY: topology layer "L2 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "L1 cache" is equivalent to "core".
+OMP: Info #285: KMP_AFFINITY: topology layer "thread" is equivalent to "core".
+OMP: Info #191: KMP_AFFINITY: 2 sockets x 14 cores/socket x 1 thread/core (28 total cores)
+OMP: Info #216: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to socket 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to socket 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to socket 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to socket 0 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to socket 0 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to socket 0 core 5 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to socket 0 core 6 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to socket 0 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to socket 0 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to socket 0 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to socket 0 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to socket 0 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to socket 0 core 13 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to socket 0 core 14 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to socket 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to socket 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to socket 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to socket 1 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to socket 1 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to socket 1 core 5 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to socket 1 core 6 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to socket 1 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to socket 1 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to socket 1 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to socket 1 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to socket 1 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to socket 1 core 13 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to socket 1 core 14 
+OMP: Info #252: KMP_AFFINITY: pid 23429 tid 23429 thread 0 bound to OS proc set 0
+2020-11-20 19:36:30.005060: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/deep_q_networks.py:635: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W1120 19:36:30.090782 47447714122560 deprecation.py:323] From /users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/deep_q_networks.py:635: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W1120 19:36:30.091660 47447714122560 deprecation.py:323] From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py:5520: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W1120 19:36:34.473027 47447714122560 deprecation.py:323] From /users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py:5520: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+1 molecule converted
+Rips(maxdim=1, thresh=inf, coeff=2, do_cocycles=False, n_perm = None, verbose=True)
+predicted co2 binding affinity = 4.817169537933779
+predicted homo-lumo gap = -0.3306172050771359
+predicted co2 binding affinity = 5.102699291137689
+predicted homo-lumo gap = -0.2448156382872959
+predicted co2 binding affinity = 4.815792076736251
+predicted homo-lumo gap = -0.3305635465855765
+predicted co2 binding affinity = 4.0545089872647
+predicted homo-lumo gap = -0.3058250505957041
+predicted co2 binding affinity = 4.817219190937937
+predicted homo-lumo gap = -0.33062037036123826
+predicted co2 binding affinity = 4.8172766576042605
+predicted homo-lumo gap = -0.33062292481871225
+predicted co2 binding affinity = 4.598320329907313
+predicted homo-lumo gap = -0.2996601354495212
+Traceback (most recent call last):
+  File "optimize_co2rewarded_gap_penalized.py", line 145, in <module>
+    app.run(main)
+  File "/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "optimize_co2rewarded_gap_penalized.py", line 138, in main
+    dqn=dqn,
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 228, in run_training
+    beta_schedule=beta_schedule)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 271, in _episode
+    head=head)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/run_dqn.py", line 336, in _step
+    result = environment.step(action)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/dqn/molecules.py", line 471, in step
+    reward=self._reward(),
+  File "optimize_co2rewarded_gap_penalized.py", line 105, in _reward
+    return PI_reward(molecule)
+  File "optimize_co2rewarded_gap_penalized.py", line 81, in PI_reward
+    X=VariancePersist('./database/mol.xyz', pixelx=pixelsx, pixely=pixelsy, myspread=spread, myspecs={"maxBD": Max, "minBD":-.10}, showplot=False)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/Element_PI.py", line 300, in VariancePersist
+    D,elements=Makexyzdistance(Filename)
+  File "/users/PES0434/ucn2400/projects/mol_dqn_PI/mol_dqn/chemgraph/Element_PI.py", line 23, in Makexyzdistance
+    z=np.loadtxt(t,dtype=float,usecols=(3),skiprows=2)
+  File "/users/PES0434/ucn2400/.conda/envs/tensorflow_1.15/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1085, in loadtxt
+    next(fh)
+StopIteration
+
+|| exit 1
+/var/spool/torque/mom_priv/jobs/12050676.owens-batch.ten.osc.edu.SC: line 37: syntax error near unexpected token `||'
+/var/spool/torque/mom_priv/jobs/12050676.owens-batch.ten.osc.edu.SC: line 37: `|| exit 1'
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28:gpus=1
+mem=120820mb
+-----------------------
+Resources used:
+cput=00:00:24
+walltime=00:01:23
+mem=0.208GB
+vmem=5.324GB
+-----------------------
