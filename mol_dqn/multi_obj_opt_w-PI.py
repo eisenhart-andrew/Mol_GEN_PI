@@ -99,7 +99,7 @@ class MultiObjectiveRewardMolecule(molecules_mdp.Molecule):
       Float. The Tanimoto similarity.
     """
 
-    structure = Chem.MolFromSmiles(smiles)
+    structure = Chem.MolFromSmiles(smiles) ### Andrew E #####
     if structure is None:
       return 0.0
     fingerprint_structure = self.get_fingerprint(structure)
@@ -107,7 +107,7 @@ class MultiObjectiveRewardMolecule(molecules_mdp.Molecule):
     return DataStructs.TanimotoSimilarity(self._target_mol_fingerprint,
                                           fingerprint_structure)
 
-  def PI_reward(smiles):
+  def PI_reward(smiles):                     ### Andrew E #####
     obConversion = openbabel.OBConversion()
     obConversion.SetInAndOutFormats("smi", "xyz")
     mol = openbabel.OBMol(smiles)
@@ -118,7 +118,7 @@ class MultiObjectiveRewardMolecule(molecules_mdp.Molecule):
     PIreward = model.predict(X)
     n=n+1
     return PIreward  
-  def _reward(self):
+  def _reward(self): ### Andrew E #####
     """Calculates the reward of the current state.
 
     The reward is defined as a tuple of the similarity and QED value.
