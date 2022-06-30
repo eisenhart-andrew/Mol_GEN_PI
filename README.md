@@ -1,7 +1,7 @@
 # Mol_GEN_PI
 Molecular generation using MOL-DQN env judged by persistance image trained RFR
 
-#PREPUBLICATION
+# PREPUBLICATION
 
 Latest successful script "mol_dqn/multi_obj_opt_w-PI.py"
 
